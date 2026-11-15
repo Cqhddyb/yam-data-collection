@@ -1,0 +1,8 @@
+# Portable recorder/audit dependencies, from src/yam_data_collection/pyproject.toml.
+# Recommended: scripts/setup_env.sh uses the original two uv.lock files.
+# Hardware controller dependencies are in src/i2rt/pyproject.toml, not this file.
+mcap-ros2-support>=0.5.5
+numpy>=1.26
+portal==3.7.3
+PyYAML>=6.0
+av>=16,<17

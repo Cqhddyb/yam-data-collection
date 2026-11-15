@@ -1,0 +1,78 @@
+{
+  "commands": [
+    {
+      "role": "left_follower",
+      "argv": [
+        "taskset", "-c", "0-15",
+        "/path/to/yam/i2rt/.venv/bin/python",
+        "/path/to/yam/i2rt/examples/minimum_gello/minimum_gello.py",
+        "--mode", "follower",
+        "--can-channel", "can_follower_l",
+        "--gripper", "linear_4310",
+        "--server-port", "1235"
+      ],
+      "readiness": [{"host": "127.0.0.1", "port": 1235}],
+      "cwd": "/path/to/yam/i2rt",
+      "startup_timeout_s": 20
+    },
+    {
+      "role": "right_follower",
+      "argv": [
+        "taskset", "-c", "0-15",
+        "/path/to/yam/i2rt/.venv/bin/python",
+        "/path/to/yam/i2rt/examples/minimum_gello/minimum_gello.py",
+        "--mode", "follower",
+        "--can-channel", "can_follower_r",
+        "--gripper", "linear_4310",
+        "--server-port", "1234"
+      ],
+      "readiness": [{"host": "127.0.0.1", "port": 1234}],
+      "cwd": "/path/to/yam/i2rt",
+      "startup_timeout_s": 20
+    },
+    {
+      "role": "right_leader",
+      "argv": [
+        "taskset", "-c", "0-15",
+        "/path/to/yam/i2rt/.venv/bin/python",
+        "/path/to/yam/i2rt/examples/minimum_gello/minimum_gello.py",
+        "--mode", "leader",
+        "--can-channel", "can_leader_r",
+        "--gripper", "yam_teaching_handle",
+        "--server-host", "127.0.0.1",
+        "--server-port", "1234",
+        "--bilateral-kp", "0.0",
+        "--telemetry-port", "1244",
+        "--gripper-command-closed", "0.068655",
+        "--gripper-command-open", "0.960555"
+      ],
+      "readiness": [
+        {"host": "127.0.0.1", "port": 1234},
+        {"host": "127.0.0.1", "port": 1244}
+      ],
+      "cwd": "/path/to/yam/i2rt",
+      "startup_timeout_s": 20
+    },
+    {
+      "role": "left_leader",
+      "argv": [
+        "taskset", "-c", "0-15",
+        "/path/to/yam/i2rt/.venv/bin/python",
+        "/path/to/yam/i2rt/examples/minimum_gello/minimum_gello.py",
+        "--mode", "leader",
+        "--can-channel", "can_leader_l",
+        "--gripper", "yam_teaching_handle",
+        "--server-host", "127.0.0.1",
+        "--server-port", "1235",
+        "--bilateral-kp", "0.0",
+        "--telemetry-port", "1245"
+      ],
+      "readiness": [
+        {"host": "127.0.0.1", "port": 1235},
+        {"host": "127.0.0.1", "port": 1245}
+      ],
+      "cwd": "/path/to/yam/i2rt",
+      "startup_timeout_s": 20
+    }
+  ]
+}

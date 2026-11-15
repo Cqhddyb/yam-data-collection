@@ -1,0 +1,1970 @@
+[
+  {
+    "source": "deploy/90-yam-can.rules",
+    "release": "src/deploy/90-yam-can.rules",
+    "source_sha256": "e834907fbfbfd668eedc1b0612bf8bf1eec82c213b4dadb8e79004fdc3930d45",
+    "release_sha256": "e0be1bdd34826ab4829098d127d5cbac8107094ea39b86383f6067bf8b00711a",
+    "bytes": 884,
+    "transformation": "sanitized"
+  },
+  {
+    "source": "deploy/install_can.sh",
+    "release": "src/deploy/install_can.sh",
+    "source_sha256": "6989d0ea46e509325ee7e7424c28f3527a12a2ec29538c90c91a1e757467974d",
+    "release_sha256": "52f0cee4cabc5dd7c609389b21076975c14d3ce6826973134cb781f88f591c55",
+    "bytes": 3116,
+    "transformation": "sanitized"
+  },
+  {
+    "source": "deploy/yam-can@.service",
+    "release": "src/deploy/yam-can@.service",
+    "source_sha256": "f4cd01121b9ea922b9d8b56c03fc44f43d7e8a6270cba56cd7f0dacefef4a3e8",
+    "release_sha256": "f4cd01121b9ea922b9d8b56c03fc44f43d7e8a6270cba56cd7f0dacefef4a3e8",
+    "bytes": 415,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/.python-version",
+    "release": "src/i2rt/.python-version",
+    "source_sha256": "49a506dd32096b010d75205acf3430c9ae6c40351888129499e5a5e487126c93",
+    "release_sha256": "49a506dd32096b010d75205acf3430c9ae6c40351888129499e5a5e487126c93",
+    "bytes": 5,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/LICENSE",
+    "release": "src/i2rt/LICENSE",
+    "source_sha256": "7cd0a0224a287ebd6c45703eb6623d264c7810f8958d65de8f99e87ccd9f4891",
+    "release_sha256": "7cd0a0224a287ebd6c45703eb6623d264c7810f8958d65de8f99e87ccd9f4891",
+    "bytes": 1073,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/examples/minimum_gello/minimum_gello.py",
+    "release": "src/i2rt/examples/minimum_gello/minimum_gello.py",
+    "source_sha256": "e810a7f73fd4e040ba25c4537fbbaacb3cca79b932109b2e8f29e0eedddbdbd9",
+    "release_sha256": "e810a7f73fd4e040ba25c4537fbbaacb3cca79b932109b2e8f29e0eedddbdbd9",
+    "bytes": 60034,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/__init__.py",
+    "release": "src/i2rt/i2rt/__init__.py",
+    "source_sha256": "cbead913fd11bd8e16e657d10762237a4b5da302d7a068a101e99534d0da851f",
+    "release_sha256": "cbead913fd11bd8e16e657d10762237a4b5da302d7a068a101e99534d0da851f",
+    "bytes": 21,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/motor_config_tool/ping_motors.py",
+    "release": "src/i2rt/i2rt/motor_config_tool/ping_motors.py",
+    "source_sha256": "5730299baee3ccd301d9e67edee0ee7ed2889409c854b3ca3b646ad4b2f9eae3",
+    "release_sha256": "5730299baee3ccd301d9e67edee0ee7ed2889409c854b3ca3b646ad4b2f9eae3",
+    "bytes": 943,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/motor_config_tool/set_timeout.py",
+    "release": "src/i2rt/i2rt/motor_config_tool/set_timeout.py",
+    "source_sha256": "3f5c9717b9cf1b6d9ecd38055a3c2386ee2305bd0fe570d7c2d37bdf8a076a37",
+    "release_sha256": "3f5c9717b9cf1b6d9ecd38055a3c2386ee2305bd0fe570d7c2d37bdf8a076a37",
+    "bytes": 1685,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/motor_config_tool/set_zero.py",
+    "release": "src/i2rt/i2rt/motor_config_tool/set_zero.py",
+    "source_sha256": "091494314172eb67f3e024be05acb2de7714fbed624a450d4fe209a682f30b17",
+    "release_sha256": "091494314172eb67f3e024be05acb2de7714fbed624a450d4fe209a682f30b17",
+    "bytes": 1301,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/motor_config_tool/utils.py",
+    "release": "src/i2rt/i2rt/motor_config_tool/utils.py",
+    "source_sha256": "28e9848717fd1aaeda2c4e9faf176c6225578dc7811cabe38d8d23678372a172",
+    "release_sha256": "28e9848717fd1aaeda2c4e9faf176c6225578dc7811cabe38d8d23678372a172",
+    "bytes": 7250,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/motor_drivers/can_interface.py",
+    "release": "src/i2rt/i2rt/motor_drivers/can_interface.py",
+    "source_sha256": "2507f15fa704213c2d4a0382188832747bd992417981bcf424cc1714e408dad4",
+    "release_sha256": "2507f15fa704213c2d4a0382188832747bd992417981bcf424cc1714e408dad4",
+    "bytes": 5273,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/motor_drivers/dm_driver.py",
+    "release": "src/i2rt/i2rt/motor_drivers/dm_driver.py",
+    "source_sha256": "fa23da8eb99200cb0a99a3b6df34052c8c6a1ef93cb069747a6f067b349afa56",
+    "release_sha256": "fa23da8eb99200cb0a99a3b6df34052c8c6a1ef93cb069747a6f067b349afa56",
+    "bytes": 36717,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/motor_drivers/utils.py",
+    "release": "src/i2rt/i2rt/motor_drivers/utils.py",
+    "source_sha256": "652573c93022bbc20531e1215640acc555372c087a9883e924c54ae9d2a35ff8",
+    "release_sha256": "652573c93022bbc20531e1215640acc555372c087a9883e924c54ae9d2a35ff8",
+    "bytes": 6679,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/__init__.py",
+    "release": "src/i2rt/i2rt/robot_models/__init__.py",
+    "source_sha256": "174e995c58ee60cd0f23fbe4fb6dddce7449d124d329c0b6fdaabefa7e51b86c",
+    "release_sha256": "174e995c58ee60cd0f23fbe4fb6dddce7449d124d329c0b6fdaabefa7e51b86c",
+    "bytes": 2774,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/big_yam/v1/assets/base.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/big_yam/v1/assets/base.stl",
+    "source_sha256": "7d86f260d65cd37b294291412365fe5e403b595ceaa234e78286b95dc7aff77a",
+    "release_sha256": "7d86f260d65cd37b294291412365fe5e403b595ceaa234e78286b95dc7aff77a",
+    "bytes": 344384,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/big_yam/v1/assets/gripper.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/big_yam/v1/assets/gripper.stl",
+    "source_sha256": "701ac4a0383aad737dfbb62bddb31f9934d9c462a81ff6d6263eee13c091bc33",
+    "release_sha256": "701ac4a0383aad737dfbb62bddb31f9934d9c462a81ff6d6263eee13c091bc33",
+    "bytes": 431184,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/big_yam/v1/assets/link1.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/big_yam/v1/assets/link1.stl",
+    "source_sha256": "18c405acd943c73321a4bd3adb04ecd5e4f80629fb6db06809e8bc433553aaa9",
+    "release_sha256": "18c405acd943c73321a4bd3adb04ecd5e4f80629fb6db06809e8bc433553aaa9",
+    "bytes": 64184,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/big_yam/v1/assets/link2.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/big_yam/v1/assets/link2.stl",
+    "source_sha256": "87ed15ccc182b1d994eade6bbc2f8d9d83c48fc4d6d5111c4627be60f736befa",
+    "release_sha256": "87ed15ccc182b1d994eade6bbc2f8d9d83c48fc4d6d5111c4627be60f736befa",
+    "bytes": 7727884,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/big_yam/v1/assets/link3.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/big_yam/v1/assets/link3.stl",
+    "source_sha256": "df00e9b03a39d6662b0c5493f26b2262f8a689887bf9662e0ce0ab26238a3207",
+    "release_sha256": "df00e9b03a39d6662b0c5493f26b2262f8a689887bf9662e0ce0ab26238a3207",
+    "bytes": 1592884,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/big_yam/v1/assets/link4.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/big_yam/v1/assets/link4.stl",
+    "source_sha256": "5764d2f723c033f2d6b13e0ac59828c32c0de0d68b61dd5f10bd29022de6f5a7",
+    "release_sha256": "5764d2f723c033f2d6b13e0ac59828c32c0de0d68b61dd5f10bd29022de6f5a7",
+    "bytes": 185384,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/big_yam/v1/assets/link5.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/big_yam/v1/assets/link5.stl",
+    "source_sha256": "339a8f4c76f05f09dae5370ac30b6913d8116660082e297364cdcf8b94f3fa42",
+    "release_sha256": "339a8f4c76f05f09dae5370ac30b6913d8116660082e297364cdcf8b94f3fa42",
+    "bytes": 56884,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/big_yam/v1/assets/tip_left.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/big_yam/v1/assets/tip_left.stl",
+    "source_sha256": "4ac0e4ba5fe5f37cf0b44275dfaea2b1ded18c4ec338f2bde6227ac0db289bad",
+    "release_sha256": "4ac0e4ba5fe5f37cf0b44275dfaea2b1ded18c4ec338f2bde6227ac0db289bad",
+    "bytes": 1551284,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/big_yam/v1/assets/tip_right.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/big_yam/v1/assets/tip_right.stl",
+    "source_sha256": "add6dac5003603043c3c4b78605a4e691bc450ed7040871ee4aa4db84d511da3",
+    "release_sha256": "add6dac5003603043c3c4b78605a4e691bc450ed7040871ee4aa4db84d511da3",
+    "bytes": 1551184,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/big_yam/v1/big_yam.urdf",
+    "release": "src/i2rt/i2rt/robot_models/arm/big_yam/v1/big_yam.urdf",
+    "source_sha256": "4e68ce076dd1f83a1fb2e526d3c2d13b09b52519b47607042b3a225b0ad295e3",
+    "release_sha256": "4e68ce076dd1f83a1fb2e526d3c2d13b09b52519b47607042b3a225b0ad295e3",
+    "bytes": 9658,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/big_yam/v1/big_yam.xml",
+    "release": "src/i2rt/i2rt/robot_models/arm/big_yam/v1/big_yam.xml",
+    "source_sha256": "2a2e92ec197e90d350955795b48584fe5818a8a30942fc4dbbed874e37d277d4",
+    "release_sha256": "2a2e92ec197e90d350955795b48584fe5818a8a30942fc4dbbed874e37d277d4",
+    "bytes": 3458,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam/v1/assets/base.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam/v1/assets/base.stl",
+    "source_sha256": "d95a5aa0c06a5ef6da02788b0df5a14e4202c1ae8eb2771a7f6f8947e3a490c7",
+    "release_sha256": "d95a5aa0c06a5ef6da02788b0df5a14e4202c1ae8eb2771a7f6f8947e3a490c7",
+    "bytes": 437784,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam/v1/assets/gripper.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam/v1/assets/gripper.stl",
+    "source_sha256": "e0dad958755f0a9d58e6bea4f16fed2849146ae81c0dbd45487aff308cb49e58",
+    "release_sha256": "e0dad958755f0a9d58e6bea4f16fed2849146ae81c0dbd45487aff308cb49e58",
+    "bytes": 379584,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam/v1/assets/link1.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam/v1/assets/link1.stl",
+    "source_sha256": "41f7dfbd0471a0f96884c73782e82927f2bbc6aced9b55c0111da1b52d6e0c50",
+    "release_sha256": "41f7dfbd0471a0f96884c73782e82927f2bbc6aced9b55c0111da1b52d6e0c50",
+    "bytes": 308684,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam/v1/assets/link2.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam/v1/assets/link2.stl",
+    "source_sha256": "067b51567a95a631d50fc02515bd045a2eb7f2f34489d5aec31d9f3f6ce58b30",
+    "release_sha256": "067b51567a95a631d50fc02515bd045a2eb7f2f34489d5aec31d9f3f6ce58b30",
+    "bytes": 1495784,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam/v1/assets/link3.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam/v1/assets/link3.stl",
+    "source_sha256": "9650a114393881b54a68822ba3fb48fcd3318023ebecaf251e4f7804e91f801c",
+    "release_sha256": "9650a114393881b54a68822ba3fb48fcd3318023ebecaf251e4f7804e91f801c",
+    "bytes": 1507584,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam/v1/assets/link4.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam/v1/assets/link4.stl",
+    "source_sha256": "42740ce2bb8693760a35dc6e9e8fe0981999c02d6bf167a465c9936acf41c557",
+    "release_sha256": "42740ce2bb8693760a35dc6e9e8fe0981999c02d6bf167a465c9936acf41c557",
+    "bytes": 185484,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam/v1/assets/link5.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam/v1/assets/link5.stl",
+    "source_sha256": "f70eb1191d6a1ccbb748a46fe8ba541f38094c9829fd1859300e70360c5a07c7",
+    "release_sha256": "f70eb1191d6a1ccbb748a46fe8ba541f38094c9829fd1859300e70360c5a07c7",
+    "bytes": 56884,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam/v1/assets/tip_left.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam/v1/assets/tip_left.stl",
+    "source_sha256": "281354d77e4914ccd994b6c71fecce49a91527701f268d318f801769a6913685",
+    "release_sha256": "281354d77e4914ccd994b6c71fecce49a91527701f268d318f801769a6913685",
+    "bytes": 1555584,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam/v1/assets/tip_right.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam/v1/assets/tip_right.stl",
+    "source_sha256": "070925233d4b742c05c4d5508e951deba5947c2fabfa336a4e33db599c70ac3a",
+    "release_sha256": "070925233d4b742c05c4d5508e951deba5947c2fabfa336a4e33db599c70ac3a",
+    "bytes": 1555484,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam/v1/yam.urdf",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam/v1/yam.urdf",
+    "source_sha256": "5b9ccf966aa353ccf1e82ad6e751b899333fab7c0b4d1071316172201da68c4e",
+    "release_sha256": "5b9ccf966aa353ccf1e82ad6e751b899333fab7c0b4d1071316172201da68c4e",
+    "bytes": 9128,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam/v1/yam.xml",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam/v1/yam.xml",
+    "source_sha256": "49cf63ee0f354210dac52e66f0eb87244569a3ac7ca04a17be82cbf477441ac4",
+    "release_sha256": "49cf63ee0f354210dac52e66f0eb87244569a3ac7ca04a17be82cbf477441ac4",
+    "bytes": 4717,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_pro/v1/assets/base.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_pro/v1/assets/base.stl",
+    "source_sha256": "d95a5aa0c06a5ef6da02788b0df5a14e4202c1ae8eb2771a7f6f8947e3a490c7",
+    "release_sha256": "d95a5aa0c06a5ef6da02788b0df5a14e4202c1ae8eb2771a7f6f8947e3a490c7",
+    "bytes": 437784,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_pro/v1/assets/gripper.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_pro/v1/assets/gripper.stl",
+    "source_sha256": "e0dad958755f0a9d58e6bea4f16fed2849146ae81c0dbd45487aff308cb49e58",
+    "release_sha256": "e0dad958755f0a9d58e6bea4f16fed2849146ae81c0dbd45487aff308cb49e58",
+    "bytes": 379584,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_pro/v1/assets/link1.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_pro/v1/assets/link1.stl",
+    "source_sha256": "41f7dfbd0471a0f96884c73782e82927f2bbc6aced9b55c0111da1b52d6e0c50",
+    "release_sha256": "41f7dfbd0471a0f96884c73782e82927f2bbc6aced9b55c0111da1b52d6e0c50",
+    "bytes": 308684,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_pro/v1/assets/link2.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_pro/v1/assets/link2.stl",
+    "source_sha256": "067b51567a95a631d50fc02515bd045a2eb7f2f34489d5aec31d9f3f6ce58b30",
+    "release_sha256": "067b51567a95a631d50fc02515bd045a2eb7f2f34489d5aec31d9f3f6ce58b30",
+    "bytes": 1495784,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_pro/v1/assets/link3.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_pro/v1/assets/link3.stl",
+    "source_sha256": "9650a114393881b54a68822ba3fb48fcd3318023ebecaf251e4f7804e91f801c",
+    "release_sha256": "9650a114393881b54a68822ba3fb48fcd3318023ebecaf251e4f7804e91f801c",
+    "bytes": 1507584,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_pro/v1/assets/link4.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_pro/v1/assets/link4.stl",
+    "source_sha256": "42740ce2bb8693760a35dc6e9e8fe0981999c02d6bf167a465c9936acf41c557",
+    "release_sha256": "42740ce2bb8693760a35dc6e9e8fe0981999c02d6bf167a465c9936acf41c557",
+    "bytes": 185484,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_pro/v1/assets/link5.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_pro/v1/assets/link5.stl",
+    "source_sha256": "f70eb1191d6a1ccbb748a46fe8ba541f38094c9829fd1859300e70360c5a07c7",
+    "release_sha256": "f70eb1191d6a1ccbb748a46fe8ba541f38094c9829fd1859300e70360c5a07c7",
+    "bytes": 56884,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_pro/v1/assets/tip_left.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_pro/v1/assets/tip_left.stl",
+    "source_sha256": "281354d77e4914ccd994b6c71fecce49a91527701f268d318f801769a6913685",
+    "release_sha256": "281354d77e4914ccd994b6c71fecce49a91527701f268d318f801769a6913685",
+    "bytes": 1555584,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_pro/v1/assets/tip_right.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_pro/v1/assets/tip_right.stl",
+    "source_sha256": "070925233d4b742c05c4d5508e951deba5947c2fabfa336a4e33db599c70ac3a",
+    "release_sha256": "070925233d4b742c05c4d5508e951deba5947c2fabfa336a4e33db599c70ac3a",
+    "bytes": 1555484,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_pro/v1/yam_pro.urdf",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_pro/v1/yam_pro.urdf",
+    "source_sha256": "a0afdd30907d8c2952a27e1710670194a6ae71fde5d3d20f9b3e7b0c81ddd577",
+    "release_sha256": "a0afdd30907d8c2952a27e1710670194a6ae71fde5d3d20f9b3e7b0c81ddd577",
+    "bytes": 9311,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_pro/v1/yam_pro.xml",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_pro/v1/yam_pro.xml",
+    "source_sha256": "7f38f09a98dc67b1d552b58fcc096124b1701e290fa99cc712f5856edf62f1f8",
+    "release_sha256": "7f38f09a98dc67b1d552b58fcc096124b1701e290fa99cc712f5856edf62f1f8",
+    "bytes": 4719,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_ultra/v1/assets/base.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_ultra/v1/assets/base.stl",
+    "source_sha256": "e42fb29e0faea797023c4dd2dfdcd758bee800c50ead4575f80d29667f3c1405",
+    "release_sha256": "e42fb29e0faea797023c4dd2dfdcd758bee800c50ead4575f80d29667f3c1405",
+    "bytes": 1038784,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_ultra/v1/assets/gripper.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_ultra/v1/assets/gripper.stl",
+    "source_sha256": "3becdb776013e76d2550526ad6dbf5e079a5138f25f5c3faa2decd46d6feb45e",
+    "release_sha256": "3becdb776013e76d2550526ad6dbf5e079a5138f25f5c3faa2decd46d6feb45e",
+    "bytes": 900584,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_ultra/v1/assets/link1.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_ultra/v1/assets/link1.stl",
+    "source_sha256": "b0efdd643f9d471fba84cea9c2f289aeca8b3872583f149968f2b967bec7d753",
+    "release_sha256": "b0efdd643f9d471fba84cea9c2f289aeca8b3872583f149968f2b967bec7d753",
+    "bytes": 1090884,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_ultra/v1/assets/link2.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_ultra/v1/assets/link2.stl",
+    "source_sha256": "1db8d363b091b69eb74de755e30e3019d6227a5540e6099d4d0ae625fd107d14",
+    "release_sha256": "1db8d363b091b69eb74de755e30e3019d6227a5540e6099d4d0ae625fd107d14",
+    "bytes": 7293284,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_ultra/v1/assets/link3.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_ultra/v1/assets/link3.stl",
+    "source_sha256": "13d10c077fe494500ca127080ac63be1e9ca46517517bb037e55557f37934a5d",
+    "release_sha256": "13d10c077fe494500ca127080ac63be1e9ca46517517bb037e55557f37934a5d",
+    "bytes": 7072584,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_ultra/v1/assets/link4.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_ultra/v1/assets/link4.stl",
+    "source_sha256": "73442dc089bd0c2eb2888ab37b90f04d7d9d5b02fdc1388ab30ec1daa38b2b6d",
+    "release_sha256": "73442dc089bd0c2eb2888ab37b90f04d7d9d5b02fdc1388ab30ec1daa38b2b6d",
+    "bytes": 744684,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_ultra/v1/assets/link5.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_ultra/v1/assets/link5.stl",
+    "source_sha256": "2f8e28b73d62398d63915d83bc3c06c9da480635030705c654ac669ff8528169",
+    "release_sha256": "2f8e28b73d62398d63915d83bc3c06c9da480635030705c654ac669ff8528169",
+    "bytes": 134084,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_ultra/v1/assets/tip_left.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_ultra/v1/assets/tip_left.stl",
+    "source_sha256": "c5f456f1c4e866ec137c40f943bc0a5b41665fcb5caa063f88268d4eccd3d584",
+    "release_sha256": "c5f456f1c4e866ec137c40f943bc0a5b41665fcb5caa063f88268d4eccd3d584",
+    "bytes": 7281084,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_ultra/v1/assets/tip_right.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_ultra/v1/assets/tip_right.stl",
+    "source_sha256": "7070caa7a22ed3f83c36c9b044432def99d36ddae21ee392d1f62f8469de269f",
+    "release_sha256": "7070caa7a22ed3f83c36c9b044432def99d36ddae21ee392d1f62f8469de269f",
+    "bytes": 7298184,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_ultra/v1/yam_ultra.urdf",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_ultra/v1/yam_ultra.urdf",
+    "source_sha256": "e1e62618e826f66a69c01671ce74348472f48a87d16d0eac11cc63e810fc4231",
+    "release_sha256": "e1e62618e826f66a69c01671ce74348472f48a87d16d0eac11cc63e810fc4231",
+    "bytes": 9054,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_ultra/v1/yam_ultra.xml",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_ultra/v1/yam_ultra.xml",
+    "source_sha256": "259037dbd7eb1750e393fd21da760e70a932229d525424595935fd7b47e0cf05",
+    "release_sha256": "259037dbd7eb1750e393fd21da760e70a932229d525424595935fd7b47e0cf05",
+    "bytes": 4600,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_ultra/v2/assets/base.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_ultra/v2/assets/base.stl",
+    "source_sha256": "663a03e2324929a6d737287aa4c05f292d8f8a7a9bd0cf60d2f62f45dc3f1dfd",
+    "release_sha256": "663a03e2324929a6d737287aa4c05f292d8f8a7a9bd0cf60d2f62f45dc3f1dfd",
+    "bytes": 438484,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_ultra/v2/assets/gripper.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_ultra/v2/assets/gripper.stl",
+    "source_sha256": "ef3f3285470f1f242a10e75f67fe0e893a991e16a4f44d7476460f09561482cd",
+    "release_sha256": "ef3f3285470f1f242a10e75f67fe0e893a991e16a4f44d7476460f09561482cd",
+    "bytes": 379584,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_ultra/v2/assets/link1.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_ultra/v2/assets/link1.stl",
+    "source_sha256": "9d9cf7aafa8ef41f1f126c96ecfdf791ca131126562067d7f422b08f3c3fe37b",
+    "release_sha256": "9d9cf7aafa8ef41f1f126c96ecfdf791ca131126562067d7f422b08f3c3fe37b",
+    "bytes": 308684,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_ultra/v2/assets/link2.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_ultra/v2/assets/link2.stl",
+    "source_sha256": "0060599210afba9632bdbe824389301f6aadf7520fd692edcb167a5e5833ed8b",
+    "release_sha256": "0060599210afba9632bdbe824389301f6aadf7520fd692edcb167a5e5833ed8b",
+    "bytes": 1495784,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_ultra/v2/assets/link3.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_ultra/v2/assets/link3.stl",
+    "source_sha256": "42a320344d8f3b5d4c784a7a98bee5ec9109da4226c31acf3d51652c8ea74b66",
+    "release_sha256": "42a320344d8f3b5d4c784a7a98bee5ec9109da4226c31acf3d51652c8ea74b66",
+    "bytes": 1507584,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_ultra/v2/assets/link4.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_ultra/v2/assets/link4.stl",
+    "source_sha256": "fb70d5b1c5d66e0a48027ad6fe15e801424417647a5c7a7d7b6e9ae1f67285f0",
+    "release_sha256": "fb70d5b1c5d66e0a48027ad6fe15e801424417647a5c7a7d7b6e9ae1f67285f0",
+    "bytes": 185484,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_ultra/v2/assets/link5.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_ultra/v2/assets/link5.stl",
+    "source_sha256": "94b9e8265a673e6ba7432757882cda352b3e2f6f596f2e97cf55490ff32d0ba9",
+    "release_sha256": "94b9e8265a673e6ba7432757882cda352b3e2f6f596f2e97cf55490ff32d0ba9",
+    "bytes": 56884,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_ultra/v2/assets/tip_left.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_ultra/v2/assets/tip_left.stl",
+    "source_sha256": "e480ccd12ccd7970bb8b4d15ae29a080fa087badd2af8dbee505ae63bf36d67e",
+    "release_sha256": "e480ccd12ccd7970bb8b4d15ae29a080fa087badd2af8dbee505ae63bf36d67e",
+    "bytes": 1555584,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_ultra/v2/assets/tip_right.stl",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_ultra/v2/assets/tip_right.stl",
+    "source_sha256": "900513b50def141c7e7a2c64fb564d604a460c83779c3d52993263ac56f79670",
+    "release_sha256": "900513b50def141c7e7a2c64fb564d604a460c83779c3d52993263ac56f79670",
+    "bytes": 1555484,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_ultra/v2/yam_ultra.urdf",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_ultra/v2/yam_ultra.urdf",
+    "source_sha256": "16d3f521066a0a70d2fe715f5779487553b5c471a0cf58265659c43746866154",
+    "release_sha256": "16d3f521066a0a70d2fe715f5779487553b5c471a0cf58265659c43746866154",
+    "bytes": 9436,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/arm/yam_ultra/v2/yam_ultra.xml",
+    "release": "src/i2rt/i2rt/robot_models/arm/yam_ultra/v2/yam_ultra.xml",
+    "source_sha256": "4d5c8a9f6f7b2700afeb7be0b99c2c10c4ba0812dc96576c584095c1d3072bec",
+    "release_sha256": "4d5c8a9f6f7b2700afeb7be0b99c2c10c4ba0812dc96576c584095c1d3072bec",
+    "bytes": 4600,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/gripper/crank_4310/assets/gripper.stl",
+    "release": "src/i2rt/i2rt/robot_models/gripper/crank_4310/assets/gripper.stl",
+    "source_sha256": "efbe5e92e44c715d9c0ea0617e412a24db6ea0f3dabf18edc6746cd685a5d85f",
+    "release_sha256": "efbe5e92e44c715d9c0ea0617e412a24db6ea0f3dabf18edc6746cd685a5d85f",
+    "bytes": 400084,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/gripper/crank_4310/assets/tip_left.stl",
+    "release": "src/i2rt/i2rt/robot_models/gripper/crank_4310/assets/tip_left.stl",
+    "source_sha256": "b70f8c1e32ccfae03fec46ac10a0f04195347bc530ee761143a5d7c5bb07ae07",
+    "release_sha256": "b70f8c1e32ccfae03fec46ac10a0f04195347bc530ee761143a5d7c5bb07ae07",
+    "bytes": 400084,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/gripper/crank_4310/assets/tip_right.stl",
+    "release": "src/i2rt/i2rt/robot_models/gripper/crank_4310/assets/tip_right.stl",
+    "source_sha256": "f074d03ca2a4fdc53cb7f47240111010b02b6fe7bae4465230b6ac3e5a1b32d6",
+    "release_sha256": "f074d03ca2a4fdc53cb7f47240111010b02b6fe7bae4465230b6ac3e5a1b32d6",
+    "bytes": 400084,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/gripper/crank_4310/crank_4310.xml",
+    "release": "src/i2rt/i2rt/robot_models/gripper/crank_4310/crank_4310.xml",
+    "source_sha256": "0eed5fb557a0ab8bacff6bd3caa0a4c1633f7a5648f8fbec6409eec548aa03b1",
+    "release_sha256": "0eed5fb557a0ab8bacff6bd3caa0a4c1633f7a5648f8fbec6409eec548aa03b1",
+    "bytes": 1802,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/gripper/flexible_4310/assets/base.stl",
+    "release": "src/i2rt/i2rt/robot_models/gripper/flexible_4310/assets/base.stl",
+    "source_sha256": "20a38fed135939f229b7b3cb0c1505b03d02c923f988e949fd9510668d9492b3",
+    "release_sha256": "20a38fed135939f229b7b3cb0c1505b03d02c923f988e949fd9510668d9492b3",
+    "bytes": 954884,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/gripper/flexible_4310/assets/linear_module.stl",
+    "release": "src/i2rt/i2rt/robot_models/gripper/flexible_4310/assets/linear_module.stl",
+    "source_sha256": "9f3b2c7d6620658f82834b48e638ba06d87a9f2e49dfaf4a388b06bd8001d0c9",
+    "release_sha256": "9f3b2c7d6620658f82834b48e638ba06d87a9f2e49dfaf4a388b06bd8001d0c9",
+    "bytes": 1650384,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/gripper/flexible_4310/assets/soft_tips.stl",
+    "release": "src/i2rt/i2rt/robot_models/gripper/flexible_4310/assets/soft_tips.stl",
+    "source_sha256": "fd5aa18526b8d3d7f9de7a2b9cea4c1de9d3fa8ea04aea245b7dc2c61621c67f",
+    "release_sha256": "fd5aa18526b8d3d7f9de7a2b9cea4c1de9d3fa8ea04aea245b7dc2c61621c67f",
+    "bytes": 1140584,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/gripper/flexible_4310/flexible_4310.urdf",
+    "release": "src/i2rt/i2rt/robot_models/gripper/flexible_4310/flexible_4310.urdf",
+    "source_sha256": "027d6bb62a345524920075875a5b6abcb1122d184451971fcd686c510e0991f4",
+    "release_sha256": "027d6bb62a345524920075875a5b6abcb1122d184451971fcd686c510e0991f4",
+    "bytes": 4347,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/gripper/flexible_4310/flexible_4310.xml",
+    "release": "src/i2rt/i2rt/robot_models/gripper/flexible_4310/flexible_4310.xml",
+    "source_sha256": "849ce72bc33ac1490d4f261437e240b8ea70a30183cf5c5f974cbbacf61524f6",
+    "release_sha256": "849ce72bc33ac1490d4f261437e240b8ea70a30183cf5c5f974cbbacf61524f6",
+    "bytes": 2632,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/gripper/linear_3507/assets/gripper.stl",
+    "release": "src/i2rt/i2rt/robot_models/gripper/linear_3507/assets/gripper.stl",
+    "source_sha256": "d949c401186197d842ca8f9b23bfcbf24bed8461b421df06093c65e4ead21f5d",
+    "release_sha256": "d949c401186197d842ca8f9b23bfcbf24bed8461b421df06093c65e4ead21f5d",
+    "bytes": 400084,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/gripper/linear_3507/assets/tip_left.stl",
+    "release": "src/i2rt/i2rt/robot_models/gripper/linear_3507/assets/tip_left.stl",
+    "source_sha256": "03d94f53d7b5e9e1871ea6f3925c68d7a2f894b08e0c575fa0b9ed4024684ff7",
+    "release_sha256": "03d94f53d7b5e9e1871ea6f3925c68d7a2f894b08e0c575fa0b9ed4024684ff7",
+    "bytes": 400084,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/gripper/linear_3507/assets/tip_right.stl",
+    "release": "src/i2rt/i2rt/robot_models/gripper/linear_3507/assets/tip_right.stl",
+    "source_sha256": "8f620aae9c15e00e2ea4e5bf5e9a49e7edb2d23128b8955cfacc0da8da45c72f",
+    "release_sha256": "8f620aae9c15e00e2ea4e5bf5e9a49e7edb2d23128b8955cfacc0da8da45c72f",
+    "bytes": 400084,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/gripper/linear_3507/linear_3507.xml",
+    "release": "src/i2rt/i2rt/robot_models/gripper/linear_3507/linear_3507.xml",
+    "source_sha256": "cbc6b883bc8511a1150575f3859c7ab0e6742b9935b23383a107ced18851469a",
+    "release_sha256": "cbc6b883bc8511a1150575f3859c7ab0e6742b9935b23383a107ced18851469a",
+    "bytes": 2151,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/gripper/linear_4310/assets/gripper.stl",
+    "release": "src/i2rt/i2rt/robot_models/gripper/linear_4310/assets/gripper.stl",
+    "source_sha256": "d949c401186197d842ca8f9b23bfcbf24bed8461b421df06093c65e4ead21f5d",
+    "release_sha256": "d949c401186197d842ca8f9b23bfcbf24bed8461b421df06093c65e4ead21f5d",
+    "bytes": 400084,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/gripper/linear_4310/assets/tip_left.stl",
+    "release": "src/i2rt/i2rt/robot_models/gripper/linear_4310/assets/tip_left.stl",
+    "source_sha256": "03d94f53d7b5e9e1871ea6f3925c68d7a2f894b08e0c575fa0b9ed4024684ff7",
+    "release_sha256": "03d94f53d7b5e9e1871ea6f3925c68d7a2f894b08e0c575fa0b9ed4024684ff7",
+    "bytes": 400084,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/gripper/linear_4310/assets/tip_right.stl",
+    "release": "src/i2rt/i2rt/robot_models/gripper/linear_4310/assets/tip_right.stl",
+    "source_sha256": "8f620aae9c15e00e2ea4e5bf5e9a49e7edb2d23128b8955cfacc0da8da45c72f",
+    "release_sha256": "8f620aae9c15e00e2ea4e5bf5e9a49e7edb2d23128b8955cfacc0da8da45c72f",
+    "bytes": 400084,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/gripper/linear_4310/linear_4310.xml",
+    "release": "src/i2rt/i2rt/robot_models/gripper/linear_4310/linear_4310.xml",
+    "source_sha256": "1ae64edff48e7a1d1de727d90c2a77a98aa519796b72233a26f2c1ab1bf66652",
+    "release_sha256": "1ae64edff48e7a1d1de727d90c2a77a98aa519796b72233a26f2c1ab1bf66652",
+    "bytes": 2154,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/gripper/no_gripper/no_gripper.xml",
+    "release": "src/i2rt/i2rt/robot_models/gripper/no_gripper/no_gripper.xml",
+    "source_sha256": "7fb85411da50ff63a4e28f22920e9885c66be464d4b2e96f09b16a4833ced5e3",
+    "release_sha256": "7fb85411da50ff63a4e28f22920e9885c66be464d4b2e96f09b16a4833ced5e3",
+    "bytes": 405,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/gripper/yam_teaching_handle/yam_teaching_handle.xml",
+    "release": "src/i2rt/i2rt/robot_models/gripper/yam_teaching_handle/yam_teaching_handle.xml",
+    "source_sha256": "8c4d9332c6482efcb314dbd5981e4def7b2c290e70f8b2e9363e5c1622839f5d",
+    "release_sha256": "8c4d9332c6482efcb314dbd5981e4def7b2c290e70f8b2e9363e5c1622839f5d",
+    "bytes": 541,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robot_models/scripts/simplify_mesh.py",
+    "release": "src/i2rt/i2rt/robot_models/scripts/simplify_mesh.py",
+    "source_sha256": "db33e47c0cfd445fb75b6859a3f071a71b5ee187a4a93150736baf46ad24607f",
+    "release_sha256": "db33e47c0cfd445fb75b6859a3f071a71b5ee187a4a93150736baf46ad24607f",
+    "bytes": 2069,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/config/big_yam_v1.yml",
+    "release": "src/i2rt/i2rt/robots/config/big_yam_v1.yml",
+    "source_sha256": "a03f710f0ae3e4b65c0fb08555bd86dd10b4f14ab256556c65f75be9c698e43f",
+    "release_sha256": "a03f710f0ae3e4b65c0fb08555bd86dd10b4f14ab256556c65f75be9c698e43f",
+    "bytes": 399,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/config/crank_4310.yml",
+    "release": "src/i2rt/i2rt/robots/config/crank_4310.yml",
+    "source_sha256": "fa823e9d4903f46c695e7987fdb088007b58c4a0420690ccc5ad99225779a093",
+    "release_sha256": "fa823e9d4903f46c695e7987fdb088007b58c4a0420690ccc5ad99225779a093",
+    "bytes": 1342,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/config/flexible_4310.yml",
+    "release": "src/i2rt/i2rt/robots/config/flexible_4310.yml",
+    "source_sha256": "d7c0b08bf862ee67e6a5f4e6b2445452a3e90a2ea65896e96e5bb87a10d19709",
+    "release_sha256": "d7c0b08bf862ee67e6a5f4e6b2445452a3e90a2ea65896e96e5bb87a10d19709",
+    "bytes": 1213,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/config/linear_3507.yml",
+    "release": "src/i2rt/i2rt/robots/config/linear_3507.yml",
+    "source_sha256": "d94f1bf2a1f9d286a5cc8da94ac576cb6bb9065ee31401a2ff8a0ed01746b733",
+    "release_sha256": "d94f1bf2a1f9d286a5cc8da94ac576cb6bb9065ee31401a2ff8a0ed01746b733",
+    "bytes": 1193,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/config/linear_4310.yml",
+    "release": "src/i2rt/i2rt/robots/config/linear_4310.yml",
+    "source_sha256": "b672abaabd396bb05182593d8633aa7ef14fa05e8559c289f89b50390306f1a7",
+    "release_sha256": "b672abaabd396bb05182593d8633aa7ef14fa05e8559c289f89b50390306f1a7",
+    "bytes": 1193,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/config/no_gripper.yml",
+    "release": "src/i2rt/i2rt/robots/config/no_gripper.yml",
+    "source_sha256": "dcfe309c5b48c4eeae7d8eacf3f60721437d3099796db50b561f5de6c18ef229",
+    "release_sha256": "dcfe309c5b48c4eeae7d8eacf3f60721437d3099796db50b561f5de6c18ef229",
+    "bytes": 981,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/config/yam_pro_v1.yml",
+    "release": "src/i2rt/i2rt/robots/config/yam_pro_v1.yml",
+    "source_sha256": "85b71936f2dec6abf9cf4f4427ecfff0961c544622f9e35e984def58ed993867",
+    "release_sha256": "85b71936f2dec6abf9cf4f4427ecfff0961c544622f9e35e984def58ed993867",
+    "bytes": 401,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/config/yam_teaching_handle.yml",
+    "release": "src/i2rt/i2rt/robots/config/yam_teaching_handle.yml",
+    "source_sha256": "dcfe309c5b48c4eeae7d8eacf3f60721437d3099796db50b561f5de6c18ef229",
+    "release_sha256": "dcfe309c5b48c4eeae7d8eacf3f60721437d3099796db50b561f5de6c18ef229",
+    "bytes": 981,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/config/yam_ultra_v1.yml",
+    "release": "src/i2rt/i2rt/robots/config/yam_ultra_v1.yml",
+    "source_sha256": "85b71936f2dec6abf9cf4f4427ecfff0961c544622f9e35e984def58ed993867",
+    "release_sha256": "85b71936f2dec6abf9cf4f4427ecfff0961c544622f9e35e984def58ed993867",
+    "bytes": 401,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/config/yam_ultra_v2.yml",
+    "release": "src/i2rt/i2rt/robots/config/yam_ultra_v2.yml",
+    "source_sha256": "70187be88c3af899fa2b99eefac11e53a98906ab861dbd0960f6bfbbae81f89b",
+    "release_sha256": "70187be88c3af899fa2b99eefac11e53a98906ab861dbd0960f6bfbbae81f89b",
+    "bytes": 400,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/config/yam_v1.yml",
+    "release": "src/i2rt/i2rt/robots/config/yam_v1.yml",
+    "source_sha256": "d4ebd6ea4f0846bb16f40832be80a1ddee988451bc0a71b94d8fff2b72626835",
+    "release_sha256": "d4ebd6ea4f0846bb16f40832be80a1ddee988451bc0a71b94d8fff2b72626835",
+    "bytes": 401,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/get_robot.py",
+    "release": "src/i2rt/i2rt/robots/get_robot.py",
+    "source_sha256": "758fa198da4013806bf7d64c46da1146aac650a937cd66c76778707d03ee084f",
+    "release_sha256": "758fa198da4013806bf7d64c46da1146aac650a937cd66c76778707d03ee084f",
+    "bytes": 12581,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/kinematics.py",
+    "release": "src/i2rt/i2rt/robots/kinematics.py",
+    "source_sha256": "7bc66388e643e109d5ab7554f6b87b53fdbb2333552a9240aebc85b2d9c3fec2",
+    "release_sha256": "7bc66388e643e109d5ab7554f6b87b53fdbb2333552a9240aebc85b2d9c3fec2",
+    "bytes": 4697,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/motor_chain_robot.py",
+    "release": "src/i2rt/i2rt/robots/motor_chain_robot.py",
+    "source_sha256": "b8d4c359d9120f63278f63ebd8fe08d96ca3bbc5e954ccfa6753d8dc0b9a0f4d",
+    "release_sha256": "b8d4c359d9120f63278f63ebd8fe08d96ca3bbc5e954ccfa6753d8dc0b9a0f4d",
+    "bytes": 35825,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/robot.py",
+    "release": "src/i2rt/i2rt/robots/robot.py",
+    "source_sha256": "3cab7263525e8a4f1275b63c03cb286af18be475bc851404747fde13c5b3176c",
+    "release_sha256": "3cab7263525e8a4f1275b63c03cb286af18be475bc851404747fde13c5b3176c",
+    "bytes": 3651,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/sim_robot.py",
+    "release": "src/i2rt/i2rt/robots/sim_robot.py",
+    "source_sha256": "001b2d9d37f7e40dafe2991a5937925a6b839ad4663b70b576c0656e8529a95d",
+    "release_sha256": "001b2d9d37f7e40dafe2991a5937925a6b839ad4663b70b576c0656e8529a95d",
+    "bytes": 12500,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/tests/conftest.py",
+    "release": "src/i2rt/i2rt/robots/tests/conftest.py",
+    "source_sha256": "0493010e3414ee8b5a96fafacf84f4d491cce62e422711e8cb370fa00e3f186f",
+    "release_sha256": "0493010e3414ee8b5a96fafacf84f4d491cce62e422711e8cb370fa00e3f186f",
+    "bytes": 245,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/tests/test_assembly.py",
+    "release": "src/i2rt/i2rt/robots/tests/test_assembly.py",
+    "source_sha256": "85cf6165f0320ef838d55cd24af5c4c14b55ebea76248d869798dbc1f93a3564",
+    "release_sha256": "85cf6165f0320ef838d55cd24af5c4c14b55ebea76248d869798dbc1f93a3564",
+    "bytes": 8739,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/tests/test_control_interface.py",
+    "release": "src/i2rt/i2rt/robots/tests/test_control_interface.py",
+    "source_sha256": "8e38505d48f1770dc8e66dcdb7b9eaafb6ff444281869b0e84fd377bc4406525",
+    "release_sha256": "8e38505d48f1770dc8e66dcdb7b9eaafb6ff444281869b0e84fd377bc4406525",
+    "bytes": 4903,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/tests/test_gravity_comp.py",
+    "release": "src/i2rt/i2rt/robots/tests/test_gravity_comp.py",
+    "source_sha256": "e3f6755423f9c5cc90febfbb73146771b0d874adeded6a8be966befbd8393246",
+    "release_sha256": "e3f6755423f9c5cc90febfbb73146771b0d874adeded6a8be966befbd8393246",
+    "bytes": 3080,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/tests/test_kinematics.py",
+    "release": "src/i2rt/i2rt/robots/tests/test_kinematics.py",
+    "source_sha256": "afeea1bd6877f7641adf01f389e67265f3d7ed7a5c7a553ee1667172a97a8e7e",
+    "release_sha256": "afeea1bd6877f7641adf01f389e67265f3d7ed7a5c7a553ee1667172a97a8e7e",
+    "bytes": 1691,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/tests/test_minimum_gello_health.py",
+    "release": "src/i2rt/i2rt/robots/tests/test_minimum_gello_health.py",
+    "source_sha256": "3c8d09b59c88a59e438e10cb270633789a9c3a8ffc23236fa2a9de1b58082354",
+    "release_sha256": "3c8d09b59c88a59e438e10cb270633789a9c3a8ffc23236fa2a9de1b58082354",
+    "bytes": 12131,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/tests/test_minimum_gello_lag.py",
+    "release": "src/i2rt/i2rt/robots/tests/test_minimum_gello_lag.py",
+    "source_sha256": "3685e72b24d6e7fa98f3394084a5db72fcbe5a1566bc7be080fcd7489082f948",
+    "release_sha256": "3685e72b24d6e7fa98f3394084a5db72fcbe5a1566bc7be080fcd7489082f948",
+    "bytes": 4773,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/tests/test_minimum_gello_preprogrammed.py",
+    "release": "src/i2rt/i2rt/robots/tests/test_minimum_gello_preprogrammed.py",
+    "source_sha256": "595a2d4872807a06db114e13a47f59b01ff0f292b00abb1fa533dbd655537a8e",
+    "release_sha256": "595a2d4872807a06db114e13a47f59b01ff0f292b00abb1fa533dbd655537a8e",
+    "bytes": 10583,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/tests/test_minimum_gello_telemetry.py",
+    "release": "src/i2rt/i2rt/robots/tests/test_minimum_gello_telemetry.py",
+    "source_sha256": "537e3dbc490129bf0ffc96f2c0e83bb61889e5e8b03f41d204bd4e8df744c383",
+    "release_sha256": "537e3dbc490129bf0ffc96f2c0e83bb61889e5e8b03f41d204bd4e8df744c383",
+    "bytes": 8740,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/tests/test_motor_chain_health.py",
+    "release": "src/i2rt/i2rt/robots/tests/test_motor_chain_health.py",
+    "source_sha256": "37c64655e19bf925656723160b1194e0afa081ffd85eae643ee9713372c41aca",
+    "release_sha256": "37c64655e19bf925656723160b1194e0afa081ffd85eae643ee9713372c41aca",
+    "bytes": 1206,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/tests/test_motor_chain_recording.py",
+    "release": "src/i2rt/i2rt/robots/tests/test_motor_chain_recording.py",
+    "source_sha256": "eb3e6b1af7d71a31206ac9dd1143181ce8732205513e9fcdb6fb5892e40da7ee",
+    "release_sha256": "eb3e6b1af7d71a31206ac9dd1143181ce8732205513e9fcdb6fb5892e40da7ee",
+    "bytes": 742,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/tests/test_onshape_normalization.py",
+    "release": "src/i2rt/i2rt/robots/tests/test_onshape_normalization.py",
+    "source_sha256": "3bb7a8d924d24f7ebaaabe1b8b3dbee89c8e2937f200e35f2c47bf7aea6d8c40",
+    "release_sha256": "3bb7a8d924d24f7ebaaabe1b8b3dbee89c8e2937f200e35f2c47bf7aea6d8c40",
+    "bytes": 1792,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/tests/test_passive_encoder.py",
+    "release": "src/i2rt/i2rt/robots/tests/test_passive_encoder.py",
+    "source_sha256": "9e607d5d860500701ee918c34a065ea65728554bb4f7a62649a59cc7b15c387d",
+    "release_sha256": "9e607d5d860500701ee918c34a065ea65728554bb4f7a62649a59cc7b15c387d",
+    "bytes": 1015,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/tests/test_read_gripper_motor_angle.py",
+    "release": "src/i2rt/i2rt/robots/tests/test_read_gripper_motor_angle.py",
+    "source_sha256": "81acea7539cfe03c70abb7e38fd2c1cc5de6c066b2a3a576d316d79fff896935",
+    "release_sha256": "81acea7539cfe03c70abb7e38fd2c1cc5de6c066b2a3a576d316d79fff896935",
+    "bytes": 860,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/tests/test_robot_variants.py",
+    "release": "src/i2rt/i2rt/robots/tests/test_robot_variants.py",
+    "source_sha256": "9a0eee072e28b42fe2efe4bc1928e37173b501e30a5eafb5513e46fcf59f34ef",
+    "release_sha256": "9a0eee072e28b42fe2efe4bc1928e37173b501e30a5eafb5513e46fcf59f34ef",
+    "bytes": 7305,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/tests/test_urdf_mjcf_alignment.py",
+    "release": "src/i2rt/i2rt/robots/tests/test_urdf_mjcf_alignment.py",
+    "source_sha256": "ffa21dad3cede5c47dd4e883e9a4980fcfa6d1e357cba3336d5b39e77d60d2f6",
+    "release_sha256": "ffa21dad3cede5c47dd4e883e9a4980fcfa6d1e357cba3336d5b39e77d60d2f6",
+    "bytes": 14337,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/tests/test_urdf_mjcf_posed_alignment.py",
+    "release": "src/i2rt/i2rt/robots/tests/test_urdf_mjcf_posed_alignment.py",
+    "source_sha256": "ad905d31ef94c4b39d286c06e71550aca784b271de0320245bc2774cb9917d3e",
+    "release_sha256": "ad905d31ef94c4b39d286c06e71550aca784b271de0320245bc2774cb9917d3e",
+    "bytes": 11187,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/robots/utils.py",
+    "release": "src/i2rt/i2rt/robots/utils.py",
+    "source_sha256": "e40afa7833617be524087464eb9bd268521bfa7aa0755bce5bf1034aa48dc59e",
+    "release_sha256": "e40afa7833617be524087464eb9bd268521bfa7aa0755bce5bf1034aa48dc59e",
+    "bytes": 35993,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/utils/can_flash.py",
+    "release": "src/i2rt/i2rt/utils/can_flash.py",
+    "source_sha256": "640c1b7554a1e8239dd4b509acc4f2b81bdbb3e634f84c0fc0cea98d911fb8a1",
+    "release_sha256": "640c1b7554a1e8239dd4b509acc4f2b81bdbb3e634f84c0fc0cea98d911fb8a1",
+    "bytes": 11668,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/utils/encoder_manager.py",
+    "release": "src/i2rt/i2rt/utils/encoder_manager.py",
+    "source_sha256": "04b5bcba6615521e35a2de9eb522f4d623f11a0a4b3b1e2684a858f2032d3d21",
+    "release_sha256": "04b5bcba6615521e35a2de9eb522f4d623f11a0a4b3b1e2684a858f2032d3d21",
+    "bytes": 46358,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/utils/gamepad_utils.py",
+    "release": "src/i2rt/i2rt/utils/gamepad_utils.py",
+    "source_sha256": "5fcd79feb46f3d9844835676df7dc970e8c9425b8275f5705c8b56c358c9cd6e",
+    "release_sha256": "5fcd79feb46f3d9844835676df7dc970e8c9425b8275f5705c8b56c358c9cd6e",
+    "bytes": 1816,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/utils/mujoco_control_interface.py",
+    "release": "src/i2rt/i2rt/utils/mujoco_control_interface.py",
+    "source_sha256": "d1cce8f18bc86757b26110bdacfaec5615f24d9657ad33ba7b4b202d9dc15971",
+    "release_sha256": "d1cce8f18bc86757b26110bdacfaec5615f24d9657ad33ba7b4b202d9dc15971",
+    "bytes": 32114,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/utils/mujoco_utils.py",
+    "release": "src/i2rt/i2rt/utils/mujoco_utils.py",
+    "source_sha256": "07373127c94c694ccbf872ef071fb7e4170541a6b00b6375305884ceb707383a",
+    "release_sha256": "07373127c94c694ccbf872ef071fb7e4170541a6b00b6375305884ceb707383a",
+    "bytes": 1303,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/utils/recording.py",
+    "release": "src/i2rt/i2rt/utils/recording.py",
+    "source_sha256": "48f6a382b668ae15bc324077ddaa0cc273500858e4a41d7d441131565560776b",
+    "release_sha256": "48f6a382b668ae15bc324077ddaa0cc273500858e4a41d7d441131565560776b",
+    "bytes": 7870,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/utils/tests/conftest.py",
+    "release": "src/i2rt/i2rt/utils/tests/conftest.py",
+    "source_sha256": "7c3a7edd31f096d6a9c9c7ad36f89ec547d2a6b18541bccb4858d53dee546b0f",
+    "release_sha256": "7c3a7edd31f096d6a9c9c7ad36f89ec547d2a6b18541bccb4858d53dee546b0f",
+    "bytes": 3919,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/utils/tests/test_recording.py",
+    "release": "src/i2rt/i2rt/utils/tests/test_recording.py",
+    "source_sha256": "47a8831a6ed40fcfedadc2d7115f47e7a3e9988010e4570c2f0e1abc777fc469",
+    "release_sha256": "47a8831a6ed40fcfedadc2d7115f47e7a3e9988010e4570c2f0e1abc777fc469",
+    "bytes": 2678,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/utils/tests/test_usb_gpio_driver.py",
+    "release": "src/i2rt/i2rt/utils/tests/test_usb_gpio_driver.py",
+    "source_sha256": "86f9d3a289c82ebd6f7359b7d49beab60cf66ccfea50252506c22b64197dbe8c",
+    "release_sha256": "86f9d3a289c82ebd6f7359b7d49beab60cf66ccfea50252506c22b64197dbe8c",
+    "bytes": 13020,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/utils/usb_gpio_driver.py",
+    "release": "src/i2rt/i2rt/utils/usb_gpio_driver.py",
+    "source_sha256": "049c7851facff5b9c2abe01d4f40705c8dd1be5e9cd0a8602a7596143286b300",
+    "release_sha256": "049c7851facff5b9c2abe01d4f40705c8dd1be5e9cd0a8602a7596143286b300",
+    "bytes": 21633,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/utils/utils.py",
+    "release": "src/i2rt/i2rt/utils/utils.py",
+    "source_sha256": "fe634ceee3b30e57742a52fc8156222355abd21fcf6ab3dd6f4f298bb0464ffe",
+    "release_sha256": "fe634ceee3b30e57742a52fc8156222355abd21fcf6ab3dd6f4f298bb0464ffe",
+    "bytes": 3171,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/i2rt/utils/viser_control_interface.py",
+    "release": "src/i2rt/i2rt/utils/viser_control_interface.py",
+    "source_sha256": "c1e63fdcb9b0a9214daeeedf26d7f1047e0f561d7e60f52f85f78ebc2879126b",
+    "release_sha256": "c1e63fdcb9b0a9214daeeedf26d7f1047e0f561d7e60f52f85f78ebc2879126b",
+    "bytes": 26799,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/pyproject.toml",
+    "release": "src/i2rt/pyproject.toml",
+    "source_sha256": "00300922f8d7d74aa6e48367e3262b4954e2f5627b92d0c96cc7e5b714856289",
+    "release_sha256": "00300922f8d7d74aa6e48367e3262b4954e2f5627b92d0c96cc7e5b714856289",
+    "bytes": 3559,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/scripts/preprogrammed_move.py",
+    "release": "src/i2rt/scripts/preprogrammed_move.py",
+    "source_sha256": "72562e2719630a5ceda14bbc871ca79dc6b4fa7833d2722070c4a0d78e3e38c1",
+    "release_sha256": "72562e2719630a5ceda14bbc871ca79dc6b4fa7833d2722070c4a0d78e3e38c1",
+    "bytes": 9898,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/scripts/read_encoder.py",
+    "release": "src/i2rt/scripts/read_encoder.py",
+    "source_sha256": "61bdf2a35c2bf74d68e9fc936420d7c2af48337c4f0a1b440b0ef3a85a69a537",
+    "release_sha256": "61bdf2a35c2bf74d68e9fc936420d7c2af48337c4f0a1b440b0ef3a85a69a537",
+    "bytes": 678,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/scripts/read_gripper_motor_angle.py",
+    "release": "src/i2rt/scripts/read_gripper_motor_angle.py",
+    "source_sha256": "70582c5495db6d5fa09e6ee21c01b235464edb56623209a3587822cf2cedf841",
+    "release_sha256": "70582c5495db6d5fa09e6ee21c01b235464edb56623209a3587822cf2cedf841",
+    "bytes": 4324,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/scripts/read_gripper_status.py",
+    "release": "src/i2rt/scripts/read_gripper_status.py",
+    "source_sha256": "a263c9053b5df5c100bce7c7622b5173aeedcf4e2aee324fabb566c1eb53f509",
+    "release_sha256": "a263c9053b5df5c100bce7c7622b5173aeedcf4e2aee324fabb566c1eb53f509",
+    "bytes": 1264,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/scripts/read_joint_positions.py",
+    "release": "src/i2rt/scripts/read_joint_positions.py",
+    "source_sha256": "d9e7a27c498d494fe17e2813496bb513b4ae9e1db458a38105a7b344a9d07163",
+    "release_sha256": "d9e7a27c498d494fe17e2813496bb513b4ae9e1db458a38105a7b344a9d07163",
+    "bytes": 3196,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/scripts/release_gravity_comp.py",
+    "release": "src/i2rt/scripts/release_gravity_comp.py",
+    "source_sha256": "6b2cd699889917855043f617a315272144d65d18b8090f495d990da6b0dc35c0",
+    "release_sha256": "6b2cd699889917855043f617a315272144d65d18b8090f495d990da6b0dc35c0",
+    "bytes": 1214,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/scripts/reset_all_can.sh",
+    "release": "src/i2rt/scripts/reset_all_can.sh",
+    "source_sha256": "d6076d1fc9877058b611e9b3b02a63a21f14039f83f3bd583b51f85bf3fee2cb",
+    "release_sha256": "d6076d1fc9877058b611e9b3b02a63a21f14039f83f3bd583b51f85bf3fee2cb",
+    "bytes": 726,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/scripts/run_gello_with_passive_encoder.py",
+    "release": "src/i2rt/scripts/run_gello_with_passive_encoder.py",
+    "source_sha256": "1cd7758572dd5df877fb4e0d3db21b547cb3961d6e181d6bd0266d1e6e6799ed",
+    "release_sha256": "1cd7758572dd5df877fb4e0d3db21b547cb3961d6e181d6bd0266d1e6e6799ed",
+    "bytes": 1154,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/scripts/run_yam_leader.py",
+    "release": "src/i2rt/scripts/run_yam_leader.py",
+    "source_sha256": "536807a64cd8a330774c20b18239b608abe8000f55524b8165f2e9cd6234c8cc",
+    "release_sha256": "536807a64cd8a330774c20b18239b608abe8000f55524b8165f2e9cd6234c8cc",
+    "bytes": 676,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "i2rt/uv.lock",
+    "release": "src/i2rt/uv.lock",
+    "source_sha256": "729ca9ce581704aa4a0d5c7bc9430cee01e14c9675d051adc1661e303b2a2701",
+    "release_sha256": "729ca9ce581704aa4a0d5c7bc9430cee01e14c9675d051adc1661e303b2a2701",
+    "bytes": 462197,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "single_arm_transfer/configure_cpu.py",
+    "release": "src/single_arm_transfer/configure_cpu.py",
+    "source_sha256": "af93f182ab4490d2f28c8d4acc55c621c75b1ad5ba993b69db549c312303260f",
+    "release_sha256": "af93f182ab4490d2f28c8d4acc55c621c75b1ad5ba993b69db549c312303260f",
+    "bytes": 5380,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "single_arm_transfer/install_can_single.sh",
+    "release": "src/single_arm_transfer/install_can_single.sh",
+    "source_sha256": "4fb3fd2e4e0d344ba59bcb899b129c85da87727d5544d67bfc36005726ad2aa1",
+    "release_sha256": "4fb3fd2e4e0d344ba59bcb899b129c85da87727d5544d67bfc36005726ad2aa1",
+    "bytes": 1863,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "single_arm_transfer/tests/test_can_preview.py",
+    "release": "src/single_arm_transfer/tests/test_can_preview.py",
+    "source_sha256": "748fdbaae4d6cb86bf4df1c198fc576556d5ca867643b0bd8680dc936826f709",
+    "release_sha256": "f1b4ac6731e9d02d15c64111ac9b583fec0b9224fd9114f5a45ecadfd4900432",
+    "bytes": 1679,
+    "transformation": "sanitized"
+  },
+  {
+    "source": "single_arm_transfer/tests/test_configure_cpu.py",
+    "release": "src/single_arm_transfer/tests/test_configure_cpu.py",
+    "source_sha256": "407422dfb33d5f3b666a14a8b4430e98b3606a39b410e1613e01fe6d2831a41b",
+    "release_sha256": "407422dfb33d5f3b666a14a8b4430e98b3606a39b410e1613e01fe6d2831a41b",
+    "bytes": 3344,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "summarize_dataset_duration.sh",
+    "release": "src/summarize_dataset_duration.sh",
+    "source_sha256": "de51b07858204857cce215684fe07e6f270cf136f03c86587fe801665b9d929c",
+    "release_sha256": "de51b07858204857cce215684fe07e6f270cf136f03c86587fe801665b9d929c",
+    "bytes": 521,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam.sh",
+    "release": "src/yam.sh",
+    "source_sha256": "6ffdff3cba0d64d5707ec82a31dfc83dfa69dd13ef33ddcbe1bda255e2dca676",
+    "release_sha256": "9f1b6339b2986521da384fac04438a71eb53881385b522ef29107fab61e7900f",
+    "bytes": 4971,
+    "transformation": "sanitized"
+  },
+  {
+    "source": "yam_data_collection/.python-version",
+    "release": "src/yam_data_collection/.python-version",
+    "source_sha256": "49a506dd32096b010d75205acf3430c9ae6c40351888129499e5a5e487126c93",
+    "release_sha256": "49a506dd32096b010d75205acf3430c9ae6c40351888129499e5a5e487126c93",
+    "bytes": 5,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/camera_test.d435_1080p.yaml",
+    "release": "src/yam_data_collection/camera_test.d435_1080p.yaml",
+    "source_sha256": "be85119225a319041e80ba02b4e154067d9dbae406d210f5faaba3f445b44ff6",
+    "release_sha256": "b57119eb00a71a2a944d58ba325c8b74a287a030a95ffdce120362001e8b2539",
+    "bytes": 1056,
+    "transformation": "sanitized"
+  },
+  {
+    "source": "yam_data_collection/camera_test.d435_720p.yaml",
+    "release": "src/yam_data_collection/camera_test.d435_720p.yaml",
+    "source_sha256": "05756ba7e7978049632b288b5551b2275ecaa46e5467b4f94a15810106484216",
+    "release_sha256": "cf01421135d9d7c86e6ed7ae4f72d5dd799054d7652184c352c8e34c9072c2dd",
+    "bytes": 982,
+    "transformation": "sanitized"
+  },
+  {
+    "source": "yam_data_collection/camera_test.d435_720p_threads1.yaml",
+    "release": "src/yam_data_collection/camera_test.d435_720p_threads1.yaml",
+    "source_sha256": "47f033a58e9ec7f4808cd408a7405ce37229aad81ebc7b505c1794f6ae96bc9f",
+    "release_sha256": "67f6c45528769b4bcef9da36e10eb558df0057b2cc2a721c4e47bf020829dd11",
+    "bytes": 1082,
+    "transformation": "sanitized"
+  },
+  {
+    "source": "yam_data_collection/camera_test.d435_720p_threads2.yaml",
+    "release": "src/yam_data_collection/camera_test.d435_720p_threads2.yaml",
+    "source_sha256": "ac8917f79059f8fb491390287ac18f877320b5db82b7b6aa0d339da89f91c644",
+    "release_sha256": "6f818cd08261150c539d20ebaad21f9deaf525fca544668690879a0ff6e8df7d",
+    "bytes": 1081,
+    "transformation": "sanitized"
+  },
+  {
+    "source": "yam_data_collection/camera_test.example.yaml",
+    "release": "src/yam_data_collection/camera_test.example.yaml",
+    "source_sha256": "f45986aa92ab41cb5ff794f16259d607bf0ca396ef2f9f7a8c4a2216c7274d6c",
+    "release_sha256": "22d76a93c9f0feb5a620c4b0d460c9fd94c76a9c8f0d9abca7513e42b440e935",
+    "bytes": 2173,
+    "transformation": "sanitized"
+  },
+  {
+    "source": "yam_data_collection/config.d405_640x480.production.yaml",
+    "release": "src/yam_data_collection/config.d405_640x480.production.yaml",
+    "source_sha256": "097598fe6613086ede39548546dd526cef6319fa4c7ceb71f2c555f250d86664",
+    "release_sha256": "2906520767a3223a3215ba6f55dfc22f4f5cced682d53fcb00c1f4c93a3e2f43",
+    "bytes": 6819,
+    "transformation": "sanitized"
+  },
+  {
+    "source": "yam_data_collection/config.d405_640x480.validation.yaml",
+    "release": "src/yam_data_collection/config.d405_640x480.validation.yaml",
+    "source_sha256": "4637ac49efe927c27d4b08e6a4a3531d0c6eb88af5b35c37db29669afb04b3ac",
+    "release_sha256": "2622e8c50b7d11a0d703f86036cd71270151532824ee0ecd797fae969a432e97",
+    "bytes": 6780,
+    "transformation": "sanitized"
+  },
+  {
+    "source": "yam_data_collection/config.d405_848x480.h264_final.yaml",
+    "release": "src/yam_data_collection/config.d405_848x480.h264_final.yaml",
+    "source_sha256": "10c0bfb9bdf00800c4735ba720fab3a482f30d54f718aa372ff376c03fc12037",
+    "release_sha256": "b2dc91aaf4ac93ded1e719366c24c154ec3c9d2c7d14af8faaf7ac2bb5cfbe2e",
+    "bytes": 5549,
+    "transformation": "sanitized"
+  },
+  {
+    "source": "yam_data_collection/config.d405_848x480.validation.yaml",
+    "release": "src/yam_data_collection/config.d405_848x480.validation.yaml",
+    "source_sha256": "5426ee8e5c3b1cc5c99078a9f069fbcd7e808f85d0484c74941283e2212ca878",
+    "release_sha256": "b718601e5ddb91d886e79ca3cc061d11221ecc692fde8cbc86dbf143626ffa6c",
+    "bytes": 6701,
+    "transformation": "sanitized"
+  },
+  {
+    "source": "yam_data_collection/config.example.yaml",
+    "release": "src/yam_data_collection/config.example.yaml",
+    "source_sha256": "4a55b03524818ed8791125f3907e7401f1b8c4dc18d50e6e8e1ec6339f947317",
+    "release_sha256": "ec89c3281f768728352bfd346aa04f3099f25fcab0cb55e1b5380e4ad2d0fd33",
+    "bytes": 6328,
+    "transformation": "sanitized"
+  },
+  {
+    "source": "yam_data_collection/config.host.yaml",
+    "release": "src/yam_data_collection/config.host.yaml",
+    "source_sha256": "9e7b4b22fb0869903beaa6c6a01f74e843d96991da3f73f966ee84d728d7a88d",
+    "release_sha256": "caf96fa7fbec3b1f25119d82ed0e49a0d28cbcdb890d7ec6cc6d0c51ec256359",
+    "bytes": 7413,
+    "transformation": "sanitized"
+  },
+  {
+    "source": "yam_data_collection/pyproject.toml",
+    "release": "src/yam_data_collection/pyproject.toml",
+    "source_sha256": "5d9d53480ab091f36b782f7115a6c58e23c886666ddac8962d2c16483742b125",
+    "release_sha256": "5d9d53480ab091f36b782f7115a6c58e23c886666ddac8962d2c16483742b125",
+    "bytes": 1511,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/realsense_frame_drop_abc.example.yaml",
+    "release": "src/yam_data_collection/realsense_frame_drop_abc.example.yaml",
+    "source_sha256": "618ded3c9a0b2f68e9e3af9f1c4de4db2eec4349615f46985edd743505d10c21",
+    "release_sha256": "618ded3c9a0b2f68e9e3af9f1c4de4db2eec4349615f46985edd743505d10c21",
+    "bytes": 1724,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/scripts/calibrate_realsense_intrinsics.py",
+    "release": "src/yam_data_collection/scripts/calibrate_realsense_intrinsics.py",
+    "source_sha256": "b235947cbf31f46ec0373bc7723722fef1aa2440f7d701e72d5beade56e887bd",
+    "release_sha256": "b235947cbf31f46ec0373bc7723722fef1aa2440f7d701e72d5beade56e887bd",
+    "bytes": 12146,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/scripts/capture_queued.py",
+    "release": "src/yam_data_collection/scripts/capture_queued.py",
+    "source_sha256": "f696c87c5045adf32ffe5f6b58cb3a7aa2d5b0603b4ee84e9a7ade009ab9dbe9",
+    "release_sha256": "f696c87c5045adf32ffe5f6b58cb3a7aa2d5b0603b4ee84e9a7ade009ab9dbe9",
+    "bytes": 1872,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/scripts/check_joint_camera_sync.py",
+    "release": "src/yam_data_collection/scripts/check_joint_camera_sync.py",
+    "source_sha256": "fdec105b55c635ddfe24212ce3b40850975fc43f43f7b1d21cad55f2a18b6c42",
+    "release_sha256": "fdec105b55c635ddfe24212ce3b40850975fc43f43f7b1d21cad55f2a18b6c42",
+    "bytes": 11243,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/scripts/convert_episode_to_lerobot_v21.py",
+    "release": "src/yam_data_collection/scripts/convert_episode_to_lerobot_v21.py",
+    "source_sha256": "eb36247d1a3d747f98991d10e7def2d159c183cb4480789c47ea64dd6e024907",
+    "release_sha256": "eb36247d1a3d747f98991d10e7def2d159c183cb4480789c47ea64dd6e024907",
+    "bytes": 11544,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/scripts/mcap_task_info.py",
+    "release": "src/yam_data_collection/scripts/mcap_task_info.py",
+    "source_sha256": "84742c476d486ca0da40289aa582a0ae8b68abcc4afac5a6080bc4b9f5121216",
+    "release_sha256": "84742c476d486ca0da40289aa582a0ae8b68abcc4afac5a6080bc4b9f5121216",
+    "bytes": 13214,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/scripts/show_mcap_task_info.py",
+    "release": "src/yam_data_collection/scripts/show_mcap_task_info.py",
+    "source_sha256": "44fad626ad69ce47295b45e68f31a8f73e05218e096153f4bbdd2c76e822fbdb",
+    "release_sha256": "44fad626ad69ce47295b45e68f31a8f73e05218e096153f4bbdd2c76e822fbdb",
+    "bytes": 665,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/scripts/summarize_dataset_duration.py",
+    "release": "src/yam_data_collection/scripts/summarize_dataset_duration.py",
+    "source_sha256": "dc9658075b7f7d10dab5d828cd9f2e965514a565abc07452a209ed5d46a17689",
+    "release_sha256": "dc9658075b7f7d10dab5d828cd9f2e965514a565abc07452a209ed5d46a17689",
+    "bytes": 11905,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/scripts/update_mcap_task_info.py",
+    "release": "src/yam_data_collection/scripts/update_mcap_task_info.py",
+    "source_sha256": "4297d6a647aace05f14a5d52b15e4ed0566941d94ee7d988bfdfbfb18c0f8a95",
+    "release_sha256": "4297d6a647aace05f14a5d52b15e4ed0566941d94ee7d988bfdfbfb18c0f8a95",
+    "bytes": 206,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/scripts/validate_lerobot_dream.py",
+    "release": "src/yam_data_collection/scripts/validate_lerobot_dream.py",
+    "source_sha256": "5301e7b321deb6434684f3c7b2fb1cf573aa6d5bd3461c42ace7db96fe03fbf0",
+    "release_sha256": "5301e7b321deb6434684f3c7b2fb1cf573aa6d5bd3461c42ace7db96fe03fbf0",
+    "bytes": 3193,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/tests/__init__.py",
+    "release": "src/yam_data_collection/tests/__init__.py",
+    "source_sha256": "0a8aabc444177f6d50cbc30fb55da3be043906092d3b237b0f258154e06ff582",
+    "release_sha256": "0a8aabc444177f6d50cbc30fb55da3be043906092d3b237b0f258154e06ff582",
+    "bytes": 57,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/tests/test_camera_test.py",
+    "release": "src/yam_data_collection/tests/test_camera_test.py",
+    "source_sha256": "7d3738d03f072459699c274ced4504f88e39c3505e4a2d458091c1a6501f509a",
+    "release_sha256": "7d3738d03f072459699c274ced4504f88e39c3505e4a2d458091c1a6501f509a",
+    "bytes": 15310,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/tests/test_cameras.py",
+    "release": "src/yam_data_collection/tests/test_cameras.py",
+    "source_sha256": "716afc0406cf1024ce41ac45966734b4e1b6437af2103a5cb7cc879c64913c8f",
+    "release_sha256": "716afc0406cf1024ce41ac45966734b4e1b6437af2103a5cb7cc879c64913c8f",
+    "bytes": 13843,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/tests/test_cli.py",
+    "release": "src/yam_data_collection/tests/test_cli.py",
+    "source_sha256": "03aca655929e6947f64e812e458f27e2c5626dc7fb337e6657f086c97efb91be",
+    "release_sha256": "03aca655929e6947f64e812e458f27e2c5626dc7fb337e6657f086c97efb91be",
+    "bytes": 16752,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/tests/test_collector_safety.py",
+    "release": "src/yam_data_collection/tests/test_collector_safety.py",
+    "source_sha256": "a51564313aa24f326371e41493bdf364d6142a1637286537b2ccb6329260461e",
+    "release_sha256": "a51564313aa24f326371e41493bdf364d6142a1637286537b2ccb6329260461e",
+    "bytes": 56839,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/tests/test_config.py",
+    "release": "src/yam_data_collection/tests/test_config.py",
+    "source_sha256": "1e6fd6bebb1ff8ae54184d632fc1912e489b1b12eebd523eb165134128ccbe5d",
+    "release_sha256": "1e6fd6bebb1ff8ae54184d632fc1912e489b1b12eebd523eb165134128ccbe5d",
+    "bytes": 22725,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/tests/test_experiment.py",
+    "release": "src/yam_data_collection/tests/test_experiment.py",
+    "source_sha256": "1c6b485b421a427e2838daf980ce41019f3cd909939eef589f9a87e1646dda5c",
+    "release_sha256": "1c6b485b421a427e2838daf980ce41019f3cd909939eef589f9a87e1646dda5c",
+    "bytes": 13504,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/tests/test_host_can_deployment.py",
+    "release": "src/yam_data_collection/tests/test_host_can_deployment.py",
+    "source_sha256": "ddb9c55ef239e7df8a0adbf04e5db216d5e693ff51cc1d01c4ad0faca1b28b6b",
+    "release_sha256": "ddb9c55ef239e7df8a0adbf04e5db216d5e693ff51cc1d01c4ad0faca1b28b6b",
+    "bytes": 2317,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/tests/test_live_preview.py",
+    "release": "src/yam_data_collection/tests/test_live_preview.py",
+    "source_sha256": "9dfa07fc094204a022c4a21fbabce518238169dba4d4f0faf924d8db77d589b1",
+    "release_sha256": "9dfa07fc094204a022c4a21fbabce518238169dba4d4f0faf924d8db77d589b1",
+    "bytes": 7513,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/tests/test_mcap_contract.py",
+    "release": "src/yam_data_collection/tests/test_mcap_contract.py",
+    "source_sha256": "e2d727eb2498c4bd4b0694ceac275aeb6dcf1ca46de88e72bdc8ef4cdb7d8a7f",
+    "release_sha256": "e2d727eb2498c4bd4b0694ceac275aeb6dcf1ca46de88e72bdc8ef4cdb7d8a7f",
+    "bytes": 20250,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/tests/test_mcap_task_info.py",
+    "release": "src/yam_data_collection/tests/test_mcap_task_info.py",
+    "source_sha256": "3e329e2c670db45f55eafa40495e24bfcffc761853ddadcc315acb442d3daa6c",
+    "release_sha256": "3e329e2c670db45f55eafa40495e24bfcffc761853ddadcc315acb442d3daa6c",
+    "bytes": 5241,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/tests/test_offline_repair.py",
+    "release": "src/yam_data_collection/tests/test_offline_repair.py",
+    "source_sha256": "089ca7e65af5f65adc4014230edd1c1923e7b2457a8f3402d3e5eefc39e0be67",
+    "release_sha256": "089ca7e65af5f65adc4014230edd1c1923e7b2457a8f3402d3e5eefc39e0be67",
+    "bytes": 7573,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/tests/test_queued_collector.py",
+    "release": "src/yam_data_collection/tests/test_queued_collector.py",
+    "source_sha256": "2d8e8b19d401a752005f30b9de8cc39ba19f9b8ef643c51f8d3d36e99041c065",
+    "release_sha256": "2d8e8b19d401a752005f30b9de8cc39ba19f9b8ef643c51f8d3d36e99041c065",
+    "bytes": 3839,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/tests/test_telemetry.py",
+    "release": "src/yam_data_collection/tests/test_telemetry.py",
+    "source_sha256": "d53c08464ca032ab7b611da99c49d6ac3eb9f03d203f84eefa7da9e116592976",
+    "release_sha256": "d53c08464ca032ab7b611da99c49d6ac3eb9f03d203f84eefa7da9e116592976",
+    "bytes": 5030,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/tests/test_validation_profiles.py",
+    "release": "src/yam_data_collection/tests/test_validation_profiles.py",
+    "source_sha256": "b592954bee67ad4c004d2fc3f8a468eb25dc169b99d248288729f167b2cbd388",
+    "release_sha256": "b592954bee67ad4c004d2fc3f8a468eb25dc169b99d248288729f167b2cbd388",
+    "bytes": 2057,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/tests/test_video_pipeline.py",
+    "release": "src/yam_data_collection/tests/test_video_pipeline.py",
+    "source_sha256": "a43e6c481ff90b118cc7b71e337ee36731461180bcd7f4046c8d24adef05520c",
+    "release_sha256": "a43e6c481ff90b118cc7b71e337ee36731461180bcd7f4046c8d24adef05520c",
+    "bytes": 22994,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/tests/test_video_safety.py",
+    "release": "src/yam_data_collection/tests/test_video_safety.py",
+    "source_sha256": "e40756cd30856a189078088a8489c2acb862a0bc425abee64c0c65a03ff8f302",
+    "release_sha256": "e40756cd30856a189078088a8489c2acb862a0bc425abee64c0c65a03ff8f302",
+    "bytes": 28320,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/tests/test_video_timeline.py",
+    "release": "src/yam_data_collection/tests/test_video_timeline.py",
+    "source_sha256": "21ce5e4a72f0c2ffe3ca65dfd4d011273e19879b3c428e475fbe1f8374df5c45",
+    "release_sha256": "21ce5e4a72f0c2ffe3ca65dfd4d011273e19879b3c428e475fbe1f8374df5c45",
+    "bytes": 3583,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/tests/test_web_console.py",
+    "release": "src/yam_data_collection/tests/test_web_console.py",
+    "source_sha256": "afd05a6e050fe742599fc5778c1937666f3d50fe634869cb8d590b4c1582f390",
+    "release_sha256": "afd05a6e050fe742599fc5778c1937666f3d50fe634869cb8d590b4c1582f390",
+    "bytes": 9526,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/uv.lock",
+    "release": "src/yam_data_collection/uv.lock",
+    "source_sha256": "a8013b5bdad5cf408bd089b523da54fbc7bec6ec561714fadd29aaa3daafa503",
+    "release_sha256": "a8013b5bdad5cf408bd089b523da54fbc7bec6ec561714fadd29aaa3daafa503",
+    "bytes": 108182,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/web_arm_commands.example.json",
+    "release": "src/yam_data_collection/web_arm_commands.example.json",
+    "source_sha256": "45f4ad6da18d2750b3b884199da612542c1bdbadf2b3206ff57ebe04f7bd859e",
+    "release_sha256": "eae25eb1cfe51028e9e7ba7820918960912f4bed45308035335454210faf4b5a",
+    "bytes": 2379,
+    "transformation": "sanitized"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/__init__.py",
+    "release": "src/yam_data_collection/yam_data_collection/__init__.py",
+    "source_sha256": "37a625a26c2588df018869de11718f33887d5f7f6cab32a2b2d271d7ded217aa",
+    "release_sha256": "37a625a26c2588df018869de11718f33887d5f7f6cab32a2b2d271d7ded217aa",
+    "bytes": 155,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/__main__.py",
+    "release": "src/yam_data_collection/yam_data_collection/__main__.py",
+    "source_sha256": "0f7d54f3fbb1f79a85eb8110f11793db99da6f3c61ee979de5abe9a1b5f3fdb3",
+    "release_sha256": "0f7d54f3fbb1f79a85eb8110f11793db99da6f3c61ee979de5abe9a1b5f3fdb3",
+    "bytes": 49,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/camera_test.py",
+    "release": "src/yam_data_collection/yam_data_collection/camera_test.py",
+    "source_sha256": "7bb5ca33c5890c20f47cb9569ef36c942c9f28d885f5a85c4b29ce4cdc29f771",
+    "release_sha256": "7bb5ca33c5890c20f47cb9569ef36c942c9f28d885f5a85c4b29ce4cdc29f771",
+    "bytes": 20412,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/cameras.py",
+    "release": "src/yam_data_collection/yam_data_collection/cameras.py",
+    "source_sha256": "ffc9cca78431d8f5b5e62666a54668db0ae3b33b8e1c9606d85b2d4cb5a8c6a8",
+    "release_sha256": "ffc9cca78431d8f5b5e62666a54668db0ae3b33b8e1c9606d85b2d4cb5a8c6a8",
+    "bytes": 12224,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/cli.py",
+    "release": "src/yam_data_collection/yam_data_collection/cli.py",
+    "source_sha256": "9ab9735e2d45703f5c5aa2c728799b48bfd6b2f309eb3cdb7c97e89b6f5e8745",
+    "release_sha256": "9ab9735e2d45703f5c5aa2c728799b48bfd6b2f309eb3cdb7c97e89b6f5e8745",
+    "bytes": 27938,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/collector.py",
+    "release": "src/yam_data_collection/yam_data_collection/collector.py",
+    "source_sha256": "e7ede027122b15d71c9eb690ddd280978fa9da83de50a50f9024a6f2167d5f1c",
+    "release_sha256": "e7ede027122b15d71c9eb690ddd280978fa9da83de50a50f9024a6f2167d5f1c",
+    "bytes": 108046,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/config.py",
+    "release": "src/yam_data_collection/yam_data_collection/config.py",
+    "source_sha256": "ff462468689940c5a3c8362ebf49eb969eaf49531fa09421bceb49fdc24c07df",
+    "release_sha256": "ff462468689940c5a3c8362ebf49eb969eaf49531fa09421bceb49fdc24c07df",
+    "bytes": 29900,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/dataset_lock.py",
+    "release": "src/yam_data_collection/yam_data_collection/dataset_lock.py",
+    "source_sha256": "d5c2dbcb28736a44a26351624d4a1fa0d6c6d575f0128df213e2fe6641db6445",
+    "release_sha256": "d5c2dbcb28736a44a26351624d4a1fa0d6c6d575f0128df213e2fe6641db6445",
+    "bytes": 2419,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/experiment.py",
+    "release": "src/yam_data_collection/yam_data_collection/experiment.py",
+    "source_sha256": "845d44b2464521e36f3295a5fd6b03e8914d0596fb44fda313ff2a4d03ec7083",
+    "release_sha256": "845d44b2464521e36f3295a5fd6b03e8914d0596fb44fda313ff2a4d03ec7083",
+    "bytes": 50512,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/live_preview.py",
+    "release": "src/yam_data_collection/yam_data_collection/live_preview.py",
+    "source_sha256": "cacafbe3bc6b456d20b7e934e2af3f9c5d3c87e92f95bfb89788c54a30b6aec7",
+    "release_sha256": "cacafbe3bc6b456d20b7e934e2af3f9c5d3c87e92f95bfb89788c54a30b6aec7",
+    "bytes": 25545,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/mcap_writer.py",
+    "release": "src/yam_data_collection/yam_data_collection/mcap_writer.py",
+    "source_sha256": "d9447472d643966b6712c9cc6fa38f1c3b7bb6b4b9522732d0dd3f127ad4a623",
+    "release_sha256": "d9447472d643966b6712c9cc6fa38f1c3b7bb6b4b9522732d0dd3f127ad4a623",
+    "bytes": 9704,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/models.py",
+    "release": "src/yam_data_collection/yam_data_collection/models.py",
+    "source_sha256": "30b7476907db594676770c02fe14b795a16d6f6786ced77ddce04216ed954776",
+    "release_sha256": "30b7476907db594676770c02fe14b795a16d6f6786ced77ddce04216ed954776",
+    "bytes": 2195,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/offline_repair.py",
+    "release": "src/yam_data_collection/yam_data_collection/offline_repair.py",
+    "source_sha256": "2bb2ca99abf0a59a0de61ba07bf516d761c16cc57d948de7361d7a8bef594503",
+    "release_sha256": "2bb2ca99abf0a59a0de61ba07bf516d761c16cc57d948de7361d7a8bef594503",
+    "bytes": 27773,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/quality.py",
+    "release": "src/yam_data_collection/yam_data_collection/quality.py",
+    "source_sha256": "0786ad942dfd0781d78a8b9e4534bcb720a08e093cbf828a0954fd47a7b7faf8",
+    "release_sha256": "0786ad942dfd0781d78a8b9e4534bcb720a08e093cbf828a0954fd47a7b7faf8",
+    "bytes": 41835,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/queued_collector.py",
+    "release": "src/yam_data_collection/yam_data_collection/queued_collector.py",
+    "source_sha256": "3d675c2823fcafc5d745ffe29bceccc195c5a4eb233a33c12597eec14fa162a1",
+    "release_sha256": "3d675c2823fcafc5d745ffe29bceccc195c5a4eb233a33c12597eec14fa162a1",
+    "bytes": 9398,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/runtime_diagnostics.py",
+    "release": "src/yam_data_collection/yam_data_collection/runtime_diagnostics.py",
+    "source_sha256": "7120fca333b8142bd8951f3ca6024a1cf491097e5b7ae08161f9b13cb989a0fc",
+    "release_sha256": "7120fca333b8142bd8951f3ca6024a1cf491097e5b7ae08161f9b13cb989a0fc",
+    "bytes": 19252,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/telemetry.py",
+    "release": "src/yam_data_collection/yam_data_collection/telemetry.py",
+    "source_sha256": "6418a7673bbb146006527694d33c008cf9404e40d9f3cac621ed09f6e4eeb370",
+    "release_sha256": "6418a7673bbb146006527694d33c008cf9404e40d9f3cac621ed09f6e4eeb370",
+    "bytes": 6054,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/terminal.py",
+    "release": "src/yam_data_collection/yam_data_collection/terminal.py",
+    "source_sha256": "fafa16c323062e356c1c54c6de6526083da2db097885ac30e3cfdd5a8a398587",
+    "release_sha256": "fafa16c323062e356c1c54c6de6526083da2db097885ac30e3cfdd5a8a398587",
+    "bytes": 1081,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/validation_profiles.py",
+    "release": "src/yam_data_collection/yam_data_collection/validation_profiles.py",
+    "source_sha256": "9d52714e9c542f1a7a6079b97f66e60a64958b1dc44725d16b8558e850093f5f",
+    "release_sha256": "9d52714e9c542f1a7a6079b97f66e60a64958b1dc44725d16b8558e850093f5f",
+    "bytes": 5721,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/video.py",
+    "release": "src/yam_data_collection/yam_data_collection/video.py",
+    "source_sha256": "02e557c0441a66ae2bbdb1b2e5baafb2157bc3822880a2c624a5d25a9637d48f",
+    "release_sha256": "02e557c0441a66ae2bbdb1b2e5baafb2157bc3822880a2c624a5d25a9637d48f",
+    "bytes": 61390,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/video_pipeline.py",
+    "release": "src/yam_data_collection/yam_data_collection/video_pipeline.py",
+    "source_sha256": "f5da475167980ad5c1c15e001711d4039d150120e51a3ccb8ba58fbbe7926551",
+    "release_sha256": "f5da475167980ad5c1c15e001711d4039d150120e51a3ccb8ba58fbbe7926551",
+    "bytes": 23853,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/web_console.py",
+    "release": "src/yam_data_collection/yam_data_collection/web_console.py",
+    "source_sha256": "e3630f769a6c823d8fd0447cff9f32b43d9c13034d31022221d97fa659dcdd55",
+    "release_sha256": "e3630f769a6c823d8fd0447cff9f32b43d9c13034d31022221d97fa659dcdd55",
+    "bytes": 75335,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_data_collection/yam_data_collection/web_runtime.py",
+    "release": "src/yam_data_collection/yam_data_collection/web_runtime.py",
+    "source_sha256": "94c920b5d70461cd24622c31dccc70d419fc782f2155d25da4267bf358bb9d6a",
+    "release_sha256": "94c920b5d70461cd24622c31dccc70d419fc782f2155d25da4267bf358bb9d6a",
+    "bytes": 18619,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm.sh",
+    "release": "src/yam_single_arm.sh",
+    "source_sha256": "7be906ecc4887f620bdf8a3c0a64906646454adc2338f493465e98917dec815e",
+    "release_sha256": "7be906ecc4887f620bdf8a3c0a64906646454adc2338f493465e98917dec815e",
+    "bytes": 521,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm_collection/__init__.py",
+    "release": "src/yam_single_arm_collection/__init__.py",
+    "source_sha256": "933d6d7d9186d6d3d333c95aa1ac2fca365143c63a490078d94317f9e792322a",
+    "release_sha256": "933d6d7d9186d6d3d333c95aa1ac2fca365143c63a490078d94317f9e792322a",
+    "bytes": 73,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm_collection/__main__.py",
+    "release": "src/yam_single_arm_collection/__main__.py",
+    "source_sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "release_sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "bytes": 48,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm_collection/cli.py",
+    "release": "src/yam_single_arm_collection/cli.py",
+    "source_sha256": "c6ae1ca70c0be32530e060d1062e811b8f01bb6092e25ee253257ef41e314ebe",
+    "release_sha256": "c6ae1ca70c0be32530e060d1062e811b8f01bb6092e25ee253257ef41e314ebe",
+    "bytes": 14175,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm_collection/collector.py",
+    "release": "src/yam_single_arm_collection/collector.py",
+    "source_sha256": "a73c3d2c90742702e5ebc3aa338dce250d1f3a8c684abfda8ca04b2c33e1a31f",
+    "release_sha256": "a73c3d2c90742702e5ebc3aa338dce250d1f3a8c684abfda8ca04b2c33e1a31f",
+    "bytes": 10077,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm_collection/config.host.yaml",
+    "release": "src/yam_single_arm_collection/config.host.yaml",
+    "source_sha256": "6dd980cff300686c7499c7e65769e531b61091b7b088fcf9058663bb1a4d57c6",
+    "release_sha256": "938597264053782e468f1286a15172a859fc5bd61414c7c05ecedd1b9bbb9d9a",
+    "bytes": 217,
+    "transformation": "sanitized"
+  },
+  {
+    "source": "yam_single_arm_collection/config.py",
+    "release": "src/yam_single_arm_collection/config.py",
+    "source_sha256": "b226eae1cda0f7b39546ea00a48d88f32921da1e150478affb50c81168c03025",
+    "release_sha256": "b226eae1cda0f7b39546ea00a48d88f32921da1e150478affb50c81168c03025",
+    "bytes": 8593,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm_collection/leader_motion.sh",
+    "release": "src/yam_single_arm_collection/leader_motion.sh",
+    "source_sha256": "5bce948573281e866c3e0a32e48161d6570b9430bd194006389b68fc8d477401",
+    "release_sha256": "b72a89d8258ce74ffacd2be20ff7ccb26acc87989534c24c1b1e5d3d92998f6b",
+    "bytes": 2471,
+    "transformation": "sanitized"
+  },
+  {
+    "source": "yam_single_arm_collection/live_preview.py",
+    "release": "src/yam_single_arm_collection/live_preview.py",
+    "source_sha256": "3bf3ed5ad15cb76dbad15a31e7e7b81f1d76fa37540f60ddb01a59bf443ae46c",
+    "release_sha256": "3bf3ed5ad15cb76dbad15a31e7e7b81f1d76fa37540f60ddb01a59bf443ae46c",
+    "bytes": 3773,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm_collection/motion.py",
+    "release": "src/yam_single_arm_collection/motion.py",
+    "source_sha256": "94fbb2bc27b10ddf01a02f50c33142046b634a44827ccfd4f415e435d6392678",
+    "release_sha256": "94fbb2bc27b10ddf01a02f50c33142046b634a44827ccfd4f415e435d6392678",
+    "bytes": 27547,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm_collection/plans/left_target.template.json",
+    "release": "src/yam_single_arm_collection/plans/left_target.template.json",
+    "source_sha256": "c190cce1f3b77766dec03f751a3ec4b724b5a588828427ff89ae129950c1b2f9",
+    "release_sha256": "c190cce1f3b77766dec03f751a3ec4b724b5a588828427ff89ae129950c1b2f9",
+    "bytes": 118,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm_collection/plans/right_move.template.json",
+    "release": "src/yam_single_arm_collection/plans/right_move.template.json",
+    "source_sha256": "136b6c3177dafdb5a8bd9528eb19fabca69817d00a299e8dce95347cb362b2c2",
+    "release_sha256": "136b6c3177dafdb5a8bd9528eb19fabca69817d00a299e8dce95347cb362b2c2",
+    "bytes": 193,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm_collection/plans/right_preposition.template.json",
+    "release": "src/yam_single_arm_collection/plans/right_preposition.template.json",
+    "source_sha256": "fdbfd1141174bd4cd407f889542940e15c6bd035d1495d9b30a21d114b8cb682",
+    "release_sha256": "fdbfd1141174bd4cd407f889542940e15c6bd035d1495d9b30a21d114b8cb682",
+    "bytes": 283,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm_collection/plans/right_target.template.json",
+    "release": "src/yam_single_arm_collection/plans/right_target.template.json",
+    "source_sha256": "ad85a244161fba857b43809d04e4371fb77d3d3bf5433b4f7a91c394c2f35e3c",
+    "release_sha256": "ad85a244161fba857b43809d04e4371fb77d3d3bf5433b4f7a91c394c2f35e3c",
+    "bytes": 119,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm_collection/quality.py",
+    "release": "src/yam_single_arm_collection/quality.py",
+    "source_sha256": "1e35bfeaf23c599b8a43215521d656f775ef7c513f8f79135a64aaee46ffddd4",
+    "release_sha256": "1e35bfeaf23c599b8a43215521d656f775ef7c513f8f79135a64aaee46ffddd4",
+    "bytes": 5167,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm_collection/tests/conftest.py",
+    "release": "src/yam_single_arm_collection/tests/conftest.py",
+    "source_sha256": "09cd8d8163022c5d36bce9ea7e52a38bc8aec75896ec4eae370615d69615a050",
+    "release_sha256": "09cd8d8163022c5d36bce9ea7e52a38bc8aec75896ec4eae370615d69615a050",
+    "bytes": 2253,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm_collection/tests/test_capture.py",
+    "release": "src/yam_single_arm_collection/tests/test_capture.py",
+    "source_sha256": "9c246f25ac6b449e407bc7833de210ba508131e7f8d32d6706d9e81a09fd2284",
+    "release_sha256": "9c246f25ac6b449e407bc7833de210ba508131e7f8d32d6706d9e81a09fd2284",
+    "bytes": 11262,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm_collection/tests/test_cli.py",
+    "release": "src/yam_single_arm_collection/tests/test_cli.py",
+    "source_sha256": "d8744e35dd4453a3f45441648a2f759ee5633f83dd438d775ebc122fc4f3e71b",
+    "release_sha256": "d8744e35dd4453a3f45441648a2f759ee5633f83dd438d775ebc122fc4f3e71b",
+    "bytes": 4038,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm_collection/tests/test_config.py",
+    "release": "src/yam_single_arm_collection/tests/test_config.py",
+    "source_sha256": "a092fca64f8c271982c8047023ed6418b37e429cd4e942fb755a1fa6825ff11d",
+    "release_sha256": "bc50eb6d565c5a26234cda6fe17f1d8c3910dda9e35aa542cfe484c455bd80bd",
+    "bytes": 5370,
+    "transformation": "sanitized"
+  },
+  {
+    "source": "yam_single_arm_collection/tests/test_duration_script.py",
+    "release": "src/yam_single_arm_collection/tests/test_duration_script.py",
+    "source_sha256": "5ac318930f323e582a2081d7b131692ae7154e44b39a69e2b6b7df98927bf028",
+    "release_sha256": "5ac318930f323e582a2081d7b131692ae7154e44b39a69e2b6b7df98927bf028",
+    "bytes": 7456,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm_collection/tests/test_motion.py",
+    "release": "src/yam_single_arm_collection/tests/test_motion.py",
+    "source_sha256": "3472126b5bf164594e5c262a1553936d17feba27fe0869a97fb1a101934b38c0",
+    "release_sha256": "3472126b5bf164594e5c262a1553936d17feba27fe0869a97fb1a101934b38c0",
+    "bytes": 23974,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm_collection/tests/test_motion_cli.py",
+    "release": "src/yam_single_arm_collection/tests/test_motion_cli.py",
+    "source_sha256": "e54c6af5d385230a0203f74f3e9b72bd97338350cb224e902490e490d238f9bf",
+    "release_sha256": "e54c6af5d385230a0203f74f3e9b72bd97338350cb224e902490e490d238f9bf",
+    "bytes": 11554,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm_collection/tests/test_motion_portal.py",
+    "release": "src/yam_single_arm_collection/tests/test_motion_portal.py",
+    "source_sha256": "5c890c3e69e97631e33479084affd55b93980c826e3190f83046f0257b1c4a26",
+    "release_sha256": "5c890c3e69e97631e33479084affd55b93980c826e3190f83046f0257b1c4a26",
+    "bytes": 4617,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm_collection/tests/test_preview.py",
+    "release": "src/yam_single_arm_collection/tests/test_preview.py",
+    "source_sha256": "c0b1cd6748bf23359aba9775a98be7d9f8ee93f69364931ffd7210517d56f6ab",
+    "release_sha256": "c0b1cd6748bf23359aba9775a98be7d9f8ee93f69364931ffd7210517d56f6ab",
+    "bytes": 9161,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm_collection/tests/test_quality.py",
+    "release": "src/yam_single_arm_collection/tests/test_quality.py",
+    "source_sha256": "ab11ba50acd72d20626b1d55cffc632aad0e186e362c000c2476c7f505147fe2",
+    "release_sha256": "ab11ba50acd72d20626b1d55cffc632aad0e186e362c000c2476c7f505147fe2",
+    "bytes": 6314,
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "yam_single_arm_collection/video_pipeline.py",
+    "release": "src/yam_single_arm_collection/video_pipeline.py",
+    "source_sha256": "50949cef664961f58cb9071ca5f285b06c222b8938895927240afcc57fbcc963",
+    "release_sha256": "50949cef664961f58cb9071ca5f285b06c222b8938895927240afcc57fbcc963",
+    "bytes": 2629,
+    "transformation": "byte-identical"
+  }
+]

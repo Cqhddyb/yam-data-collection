@@ -1,0 +1,6 @@
+{
+  "side": "right",
+  "start": ["A_q1", "A_q2", "A_q3", "A_q4", "A_q5", "A_q6", "A_gripper"],
+  "target": ["B_q1", "B_q2", "B_q3", "B_q4", "B_q5", "B_q6", "B_gripper"],
+  "duration_s": 10.0
+}

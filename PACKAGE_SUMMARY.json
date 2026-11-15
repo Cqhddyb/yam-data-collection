@@ -1,0 +1,23 @@
+{
+  "audit_date": "2026-11-15",
+  "source_snapshot_files": 246,
+  "source_snapshot_bytes": 78479153,
+  "sanitized_source_files": 19,
+  "sdk_and_lockfiles_byte_identical_to_original": true,
+  "total_files_including_summary_and_checksums": 301,
+  "total_bytes_including_summary_and_checksums": 80301592,
+  "technical_documents": 13,
+  "documentation_index": "docs/README.md",
+  "offline_tests_passed": 687,
+  "offline_test_groups": {
+    "collector_single_arm_deployment": 461,
+    "mock_controller": 43,
+    "model_assembly_simulation": 183
+  },
+  "known_identity_and_static_checks_passed": true,
+  "original_source_baseline_files_unchanged": 236,
+  "raw_recordings_environments_credentials_included": false,
+  "installation_scope": "Existing third-party packages reused for validation; clean installation and live hardware not exercised.",
+  "licensing": "Included SDK MIT license retained; project owner must choose first-party licensing.",
+  "checksum_scope": "SHA256SUMS covers every regular release file except SHA256SUMS itself."
+}

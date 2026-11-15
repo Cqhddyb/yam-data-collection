@@ -1,0 +1,4 @@
+ACTION=="add", SUBSYSTEM=="net", ATTRS{idVendor}=="1d50", ATTRS{idProduct}=="606f", ATTRS{serial}=="REPLACE_LEADER_L_CAN_SERIAL", NAME="can_leader_l", TAG+="systemd", ENV{SYSTEMD_WANTS}+="yam-can@can_leader_l.service"
+ACTION=="add", SUBSYSTEM=="net", ATTRS{idVendor}=="1d50", ATTRS{idProduct}=="606f", ATTRS{serial}=="REPLACE_FOLLOWER_L_CAN_SERIAL", NAME="can_follower_l", TAG+="systemd", ENV{SYSTEMD_WANTS}+="yam-can@can_follower_l.service"
+ACTION=="add", SUBSYSTEM=="net", ATTRS{idVendor}=="1d50", ATTRS{idProduct}=="606f", ATTRS{serial}=="REPLACE_LEADER_R_CAN_SERIAL", NAME="can_leader_r", TAG+="systemd", ENV{SYSTEMD_WANTS}+="yam-can@can_leader_r.service"
+ACTION=="add", SUBSYSTEM=="net", ATTRS{idVendor}=="1d50", ATTRS{idProduct}=="606f", ATTRS{serial}=="REPLACE_FOLLOWER_R_CAN_SERIAL", NAME="can_follower_r", TAG+="systemd", ENV{SYSTEMD_WANTS}+="yam-can@can_follower_r.service"

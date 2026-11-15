@@ -1,0 +1,13 @@
+[Unit]
+Description=YAM CAN interface %i (1 Mbps)
+BindsTo=sys-subsystem-net-devices-%i.device
+After=sys-subsystem-net-devices-%i.device
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/sbin/ip link set dev %i type can bitrate 1000000 restart-ms 0
+ExecStart=/usr/sbin/ip link set dev %i txqueuelen 2000
+ExecStart=/usr/sbin/ip link set dev %i up
+ExecStop=/usr/sbin/ip link set dev %i down
+TimeoutStartSec=15

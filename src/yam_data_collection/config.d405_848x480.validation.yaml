@@ -1,0 +1,172 @@
+# Dedicated full-load qualification configuration for D405 848x480@60.
+# Keep this output isolated from the production 640x480 60 Hz dataset.
+# Intrinsics were measured with the 2.6 cm chessboard on 2026-08-20.
+collection_config:
+  dataset_dir: data/yam_pick_and_place_d405_848x480_validation
+  # The selected --mode fixes this to 180 Hz. Kept here for standalone legacy configs.
+  state_save_freq: 180.0
+  # The selected --mode fixes the camera target and validation profile.
+  target_fps: 60.0
+  validation_profile: yam_60hz
+  timeout_threshold_s: 1.0
+  total_sampled_frames: 50000
+  # Final episode assets remain HEVC. These settings are applied only by the
+  # offline `yam-data-collect transcode` step, never while teleoperating.
+  video_codec: libx265
+  video_crf: 23
+  # The existing video_* keys are the final HEVC encoder settings, retained for
+  # backwards-compatible host configurations.
+  video_preset: ultrafast
+  video_threads: 4
+  # These independent live settings control temporary files under videos_live/
+  # during teleoperation. libx264 ultrafast prevents three x265 encoders from
+  # thermally throttling the recorder CPU.
+  live_video_codec: libx264
+  live_video_crf: 23
+  live_video_preset: ultrafast
+  live_video_threads: 1
+  # Backpressure is an integrity guard, not a frame-drop buffer. A full queue
+  # aborts the episode instead of silently losing camera frames.
+  live_video_queue_size: 120
+  # Keep false for real data. Set true only for a camera/telemetry smoke test.
+  allow_uncalibrated_intrinsics: false
+
+# Standalone camera timing tests use a directory separate from validation
+# episodes. The selected --mode appends its stream subdirectory below it.
+camera_test_config:
+  output_dir: camera_tests/d405_848x480_validation
+  duration_s: 60.0
+  timeout_threshold_s: 1.0
+  video_codec: libx264
+  video_crf: 23
+  video_preset: ultrafast
+  video_threads: 1
+  video_queue_size: 240
+  fps_tolerance: 0.5
+  validation_profile: yam_60hz
+  max_gap_factor: 2.1
+
+telemetry:
+  left_follower:
+    host: 127.0.0.1
+    port: 1235
+  right_follower:
+    host: 127.0.0.1
+    port: 1234
+  left_leader:
+    host: 127.0.0.1
+    port: 1245
+  right_leader:
+    host: 127.0.0.1
+    port: 1244
+
+cameras:
+  cam_high:
+    serial: "REPLACE_CAM_HIGH_SERIAL"  # D435; discovered on this host.
+    frame_id: camera_high_color_optical_frame
+  cam_left:
+    serial: "REPLACE_RETIRED_CAMERA_SERIAL"  # D405; verify left/right after mounting.
+    frame_id: camera_left_color_optical_frame
+  cam_right:
+    serial: "REPLACE_CAM_RIGHT_SERIAL"  # D405; verify left/right after mounting.
+    frame_id: camera_right_color_optical_frame
+
+# Select this contract at runtime with --mode 30hz or --mode 60hz. Each mode
+# writes under its own dataset subdirectory, preventing incompatible episodes
+# from sharing a record_config.yaml or episode-number sequence.
+capture_modes:
+  30hz:
+    # Do not mix this qualified 720p/YUYV/one-worker profile with historical
+    # 1080p recordings stored under the old 30hz directory.
+    dataset_subdir: 30hz_720p_yuyv_threads1
+    validation_profile: yam_30hz
+    collection_config:
+      video_threads: 1
+    cameras:
+      cam_high:
+        width: 1280
+        height: 720
+        fps: 30
+        stream_format: yuyv
+        intrinsics:
+          distortion_model: plumb_bob
+          D: [0.07437029, 0.05545113, -0.00514021876, -0.00325101928, -0.441043723]
+          K: [902.796433, 0.0, 636.895553, 0.0, 912.358082, 349.39246, 0.0, 0.0, 1.0]
+          R: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+          P: [902.796433, 0.0, 636.895553, 0.0, 0.0, 912.358082, 349.39246, 0.0, 0.0, 0.0, 1.0, 0.0]
+      cam_left:
+        width: 1280
+        height: 720
+        fps: 30
+        stream_format: yuyv
+        intrinsics:
+          distortion_model: plumb_bob
+          D: [-0.0407957314, 0.0255185394, -0.0031825041, 0.00112126106, -0.00188391728]
+          K: [653.277801, 0.0, 647.578441, 0.0, 657.745011, 374.290292, 0.0, 0.0, 1.0]
+          R: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+          P: [653.277801, 0.0, 647.578441, 0.0, 0.0, 657.745011, 374.290292, 0.0, 0.0, 0.0, 1.0, 0.0]
+      cam_right:
+        width: 1280
+        height: 720
+        fps: 30
+        stream_format: yuyv
+        intrinsics:
+          distortion_model: plumb_bob
+          D: [-0.00824021034, -0.128280179, -0.00374280642, -0.00408046232, 0.149186047]
+          K: [667.608334, 0.0, 628.123854, 0.0, 670.992438, 378.998454, 0.0, 0.0, 1.0]
+          R: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+          P: [667.608334, 0.0, 628.123854, 0.0, 0.0, 670.992438, 378.998454, 0.0, 0.0, 0.0, 1.0, 0.0]
+  60hz:
+    dataset_subdir: 60hz
+    validation_profile: yam_60hz
+    collection_config:
+      # Keep collector/camera/Portal threads and the three live x264 children
+      # on disjoint CPU sets. The recorder applies both settings itself; do
+      # not wrap `yam-data-collect` in an outer taskset command.
+      recorder_cpu_set: "16-19"
+      live_video_cpu_set: "20-23"
+    cameras:
+      cam_high:
+        width: 960
+        height: 540
+        fps: 60
+        stream_format: yuyv
+        intrinsics:
+          distortion_model: plumb_bob
+          D: [0.239299792, -0.823184627, -0.0344867744, 0.0281139082, 1.318889144]
+          K: [714.461107, 0.0, 540.898124, 0.0, 712.412256, 235.352871, 0.0, 0.0, 1.0]
+          R: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+          P: [714.461107, 0.0, 540.898124, 0.0, 0.0, 712.412256, 235.352871, 0.0, 0.0, 0.0, 1.0, 0.0]
+      cam_left:
+        width: 848
+        height: 480
+        fps: 60
+        stream_format: yuyv
+        intrinsics:
+          distortion_model: plumb_bob
+          D: [-0.0526066025, 0.049374287, -0.00473812541, -0.00522576408, -0.0111492567]
+          K: [434.689628, 0.0, 420.730525, 0.0, 437.179998, 248.52152, 0.0, 0.0, 1.0]
+          R: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+          P: [434.689628, 0.0, 420.730525, 0.0, 0.0, 437.179998, 248.52152, 0.0, 0.0, 0.0, 1.0, 0.0]
+      cam_right:
+        width: 848
+        height: 480
+        fps: 60
+        stream_format: yuyv
+        intrinsics:
+          distortion_model: plumb_bob
+          D: [-0.0304878321, 0.0134617773, 0.00245248337, 0.00673813796, 0.00240642978]
+          K: [438.548052, 0.0, 432.991653, 0.0, 442.640973, 249.668645, 0.0, 0.0, 1.0]
+          R: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+          P: [438.548052, 0.0, 432.991653, 0.0, 0.0, 442.640973, 249.668645, 0.0, 0.0, 0.0, 1.0, 0.0]
+
+task_info:
+  operator: Anonymous
+  task_name: yam_pick_and_place
+  task_description: Replace with the task description before collection.
+  task_id: ""
+  skill:
+    - pick
+    - place
+  object: []
+  subtasks: []

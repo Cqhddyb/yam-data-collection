@@ -1,0 +1,73 @@
+# Standalone camera qualification. This file deliberately has no telemetry,
+# MCAP, task, or calibration fields, so it can move to another host unchanged
+# except for camera serial numbers and output location.
+camera_test_config:
+  output_dir: camera_tests
+  duration_s: 60.0
+  timeout_threshold_s: 1.0
+  # Match the live encoder used by capture. Final HEVC is deliberately an
+  # offline step and must not be included in a camera throughput test.
+  video_codec: libx264
+  video_crf: 23
+  # This is the live H.264 writer's worker count. Camera qualification must
+  # exercise the same low-load backend as normal capture, not offline x265.
+  video_preset: ultrafast
+  video_threads: 1
+  video_queue_size: 240
+  fps_tolerance: 0.5
+  # ``--mode`` selects the formal profile. This remains for legacy configs.
+  validation_profile: yam_60hz
+  # Retained for legacy-config compatibility; formal modes use their profile gap.
+  max_gap_factor: 2.1
+
+cameras:
+  cam_high:
+    serial: "REPLACE_CAM_HIGH_SERIAL"  # D435, high/center view.
+  cam_left:
+    serial: "REPLACE_RETIRED_CAMERA_SERIAL"  # D405, left view.
+  cam_right:
+    serial: "REPLACE_CAM_RIGHT_SERIAL"  # D405, right view.
+
+# The host-independent serial assignment lives above. Each formal mode owns
+# its stream profile; run `camera-test --mode 30hz` or `camera-test --mode 60hz`.
+capture_modes:
+  30hz:
+    dataset_subdir: 30hz_720p_yuyv_threads1
+    validation_profile: yam_30hz
+    camera_test_config:
+      video_threads: 1
+    cameras:
+      cam_high:
+        width: 1280
+        height: 720
+        fps: 30
+        stream_format: yuyv
+      cam_left:
+        width: 1280
+        height: 720
+        fps: 30
+        stream_format: yuyv
+      cam_right:
+        width: 1280
+        height: 720
+        fps: 30
+        stream_format: yuyv
+  60hz:
+    dataset_subdir: 60hz
+    validation_profile: yam_60hz
+    cameras:
+      cam_high:
+        width: 960
+        height: 540
+        fps: 60
+        stream_format: yuyv
+      cam_left:
+        width: 848
+        height: 480
+        fps: 60
+        stream_format: yuyv
+      cam_right:
+        width: 848
+        height: 480
+        fps: 60
+        stream_format: yuyv

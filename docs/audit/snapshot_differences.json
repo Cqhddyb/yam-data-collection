@@ -1,0 +1,72 @@
+[
+  {
+    "path": "i2rt/examples/minimum_gello/minimum_gello.py",
+    "snapshot_sha256": "6a611ce55a0d2991d901ddfb269e85306188ec912dfaab89d1e45a9cccf16548",
+    "current_sha256": "e810a7f73fd4e040ba25c4537fbbaacb3cca79b932109b2e8f29e0eedddbdbd9"
+  },
+  {
+    "path": "i2rt/i2rt/robots/tests/test_minimum_gello_preprogrammed.py",
+    "snapshot_sha256": "8952d509533d3dc0fa01c2422a991c60e10f6fb9f77f28798f95ba23a8fc56ba",
+    "current_sha256": "595a2d4872807a06db114e13a47f59b01ff0f292b00abb1fa533dbd655537a8e"
+  },
+  {
+    "path": "yam_data_collection/README.md",
+    "snapshot_sha256": "9fc3b342f652a370ac44c60a73f6ae665cf28f8f71695a8ce14c6ab313b01e07",
+    "current_sha256": "8adf69f0f3544f6d490f696491f5d22f4e5332f76ce9718e29c0a58585e97309"
+  },
+  {
+    "path": "yam_data_collection/scripts/summarize_dataset_duration.py",
+    "snapshot_sha256": "e39c12bcc399c7f1305b2687db2ec1a6ccdc799faf7a52e9348b9f5cbdcf5238",
+    "current_sha256": "dc9658075b7f7d10dab5d828cd9f2e965514a565abc07452a209ed5d46a17689"
+  },
+  {
+    "path": "yam_data_collection/tests/test_collector_safety.py",
+    "snapshot_sha256": "437f7b36fb4ac1e66a30ebb5287653a9fbb16542f86b216cde37cd05c844ed7a",
+    "current_sha256": "a51564313aa24f326371e41493bdf364d6142a1637286537b2ccb6329260461e"
+  },
+  {
+    "path": "yam_data_collection/yam_data_collection/collector.py",
+    "snapshot_sha256": "95d4b636a6f026d3233cc79a4ee9497cfcc4a2c928024b114f5974ea9d5b4c69",
+    "current_sha256": "e7ede027122b15d71c9eb690ddd280978fa9da83de50a50f9024a6f2167d5f1c"
+  },
+  {
+    "path": "yam_single_arm_collection/README.md",
+    "snapshot_sha256": "0d742a989fedd4714ea406e6cb22805d27ce45abcb92949bfa22cebcea27a32a",
+    "current_sha256": "d422befb76d38621136aee1be09bce6a243e0a4bcfbd82452829397659486ae3"
+  },
+  {
+    "path": "yam_single_arm_collection/cli.py",
+    "snapshot_sha256": "99cd2c497649c1587a9d38e54643706285502c375fcd941f4f4e9c2982397943",
+    "current_sha256": "c6ae1ca70c0be32530e060d1062e811b8f01bb6092e25ee253257ef41e314ebe"
+  },
+  {
+    "path": "yam_single_arm_collection/motion.py",
+    "snapshot_sha256": "2760d6250f0524feeef9326c9faaf259a09dce3c17cd585ebefe6c590996efd0",
+    "current_sha256": "94fbb2bc27b10ddf01a02f50c33142046b634a44827ccfd4f415e435d6392678"
+  },
+  {
+    "path": "yam_single_arm_collection/verification.json",
+    "snapshot_sha256": "b70d1d87604aa1c6cd9bf31bc02819b7bc47d68e86547ca507d045e0506a63de",
+    "current_sha256": "e4b60dcca278ddce9c57b87ab2b0ee411bc2950cb8bdfab6dcb0828d4ada1bef"
+  },
+  {
+    "path": "yam_single_arm_collection/tests/test_duration_script.py",
+    "snapshot_sha256": "e8b7ce6b53a7d5fdf92e9334e3fd86ca158423857c3e23069e8f3d54a2ceb277",
+    "current_sha256": "5ac318930f323e582a2081d7b131692ae7154e44b39a69e2b6b7df98927bf028"
+  },
+  {
+    "path": "yam_single_arm_collection/tests/test_motion.py",
+    "snapshot_sha256": "55b0f23f521b6b3c0237d79f1351fa60ab97c055ebbf0400521ba9f468eeee80",
+    "current_sha256": "3472126b5bf164594e5c262a1553936d17feba27fe0869a97fb1a101934b38c0"
+  },
+  {
+    "path": "yam_single_arm_collection/tests/test_motion_cli.py",
+    "snapshot_sha256": "54e6bc0f51fc76c1181053fe8125b0852584056e73697ecd1c6cf0bbba61a7dd",
+    "current_sha256": "e54c6af5d385230a0203f74f3e9b72bd97338350cb224e902490e490d238f9bf"
+  },
+  {
+    "path": "yam_single_arm_collection/tests/test_motion_portal.py",
+    "snapshot_sha256": "69373308f17cdec8eea3774d34a757e53caa6f84e58c58d2650f26b1cc854088",
+    "current_sha256": "5c890c3e69e97631e33479084affd55b93980c826e3190f83046f0257b1c4a26"
+  }
+]

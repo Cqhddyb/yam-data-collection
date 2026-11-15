@@ -1,0 +1,7 @@
+host_config: ../yam_data_collection/config.host.yaml
+dataset_root: data
+camera_test_root: camera_tests
+task_info:
+  task_name: REPLACE_TASK_NAME
+  task_description: REPLACE_TASK_DESCRIPTION
+  task_id: REPLACE_TASK_ID

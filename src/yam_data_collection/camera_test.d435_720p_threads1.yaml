@@ -1,0 +1,44 @@
+# Encoder-concurrency A/B profile. This preserves the qualified 720p30 YUYV
+# camera contract and all acceptance thresholds, while allowing only one
+# worker pool per libx265 encoder so camera capture retains CPU headroom.
+camera_test_config:
+  output_dir: camera_tests/d435_720p_threads1
+  duration_s: 120.0
+  timeout_threshold_s: 1.0
+  video_codec: libx265
+  video_crf: 23
+  video_preset: ultrafast
+  video_threads: 1
+  video_queue_size: 240
+  fps_tolerance: 0.5
+  validation_profile: yam_30hz
+  max_gap_factor: 2.1
+
+cameras:
+  cam_high:
+    serial: "REPLACE_CAM_HIGH_SERIAL"
+  cam_left:
+    serial: "REPLACE_RETIRED_CAMERA_SERIAL"
+  cam_right:
+    serial: "REPLACE_CAM_RIGHT_SERIAL"
+
+capture_modes:
+  30hz:
+    dataset_subdir: 30hz
+    validation_profile: yam_30hz
+    cameras:
+      cam_high:
+        width: 1280
+        height: 720
+        fps: 30
+        stream_format: yuyv
+      cam_left:
+        width: 1280
+        height: 720
+        fps: 30
+        stream_format: yuyv
+      cam_right:
+        width: 1280
+        height: 720
+        fps: 30
+        stream_format: yuyv

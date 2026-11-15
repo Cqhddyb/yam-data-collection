@@ -1,0 +1,91 @@
+{
+  "files": 56,
+  "lines": 1010563,
+  "error_status_samples": {
+    "camera cam_left failed: camera cam_left did not produce a frame: Frame did not arrive in time!": 87,
+    "camera cam_right failed: camera cam_right did not produce a frame: Frame did not arrive in time!": 118953
+  },
+  "error_transitions": {
+    "camera cam_left failed: camera cam_left did not produce a frame: Frame did not arrive in time!": 1,
+    "camera cam_right failed: camera cam_right did not produce a frame: Frame did not arrive in time!": 1
+  },
+  "examples": {
+    "camera cam_left failed: camera cam_left did not produce a frame: Frame did not arrive in time!": {
+      "path": "S01/runtime_diagnostics/capture-1794055339307125856.jsonl",
+      "line": 1145,
+      "message": "camera cam_left failed: camera cam_left did not produce a frame: Frame did not arrive in time!",
+      "episode_id": null,
+      "state": "idle",
+      "snapshot_unix_ns": 1794055576054229746
+    },
+    "camera cam_right failed: camera cam_right did not produce a frame: Frame did not arrive in time!": {
+      "path": "S08/runtime_diagnostics/capture-1794579702086878856.jsonl",
+      "line": 65882,
+      "message": "camera cam_right failed: camera cam_right did not produce a frame: Frame did not arrive in time!",
+      "episode_id": null,
+      "state": "idle",
+      "snapshot_unix_ns": 1794592918574713183
+    }
+  },
+  "global_peaks": {
+    "dropped_frames": {
+      "value": 0.0,
+      "path": "S01/runtime_diagnostics/capture-1794055339307125856.jsonl",
+      "line": 97
+    },
+    "max_pipe_write_ms": {
+      "value": 451.593819,
+      "path": "S08/runtime_diagnostics/capture-1794564286910653850.jsonl",
+      "line": 37749
+    },
+    "max_queue_depth": {
+      "value": 10.0,
+      "path": "S08/runtime_diagnostics/capture-1794564286910653850.jsonl",
+      "line": 37749
+    },
+    "queue_depth": {
+      "value": 1.0,
+      "path": "S01/runtime_diagnostics/capture-1794055339307125856.jsonl",
+      "line": 116
+    }
+  },
+  "deletion_ledgers": [
+    {
+      "path": "S01/deleted_episode_durations.txt",
+      "rows": 2
+    },
+    {
+      "path": "S02/deleted_episode_durations.txt",
+      "rows": 48
+    },
+    {
+      "path": "S04/deleted_episode_durations.txt",
+      "rows": 19
+    },
+    {
+      "path": "S07/deleted_episode_durations.txt",
+      "rows": 62
+    },
+    {
+      "path": "S08/deleted_episode_durations.txt",
+      "rows": 4
+    },
+    {
+      "path": "S09/deleted_episode_durations.txt",
+      "rows": 19
+    },
+    {
+      "path": "S10/deleted_episode_durations.txt",
+      "rows": 12
+    }
+  ],
+  "deletion_reasons": {
+    "validation_failed": 37,
+    "user_deleted": 129
+  },
+  "deletion_duration_s": {
+    "validation_failed": 441.265,
+    "user_deleted": 929.6110000000002
+  },
+  "limitations": "An error can persist through many idle status samples. Transition counts are diagnostic observations, not proven independent incidents. Ledgers only cover periods after the feature was introduced and retained files."
+}

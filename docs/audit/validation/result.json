@@ -1,0 +1,17 @@
+{
+  "collector_single_arm_deployment_tests": 461,
+  "mock_controller_tests": 43,
+  "model_assembly_simulation_tests": 183,
+  "total_passed": 687,
+  "exit_codes": {
+    "yam_data_collection": 0,
+    "i2rt": 0,
+    "collector": 0,
+    "controller": 0,
+    "model_resources": 0
+  },
+  "imports_from_separate_temporary_source_copy": true,
+  "third_party_dependencies": "Reused existing installed packages read-only; original editable .pth files were not loaded.",
+  "limitations": "No clean network install, hardware access, robot motion or live capture qualification.",
+  "source_manifest_sha256": "777085c7683e3eea6298a3e0c3ccab6be3054851e6ccbda85890c8ac705fbf63"
+}

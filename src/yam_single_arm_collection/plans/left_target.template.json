@@ -1,0 +1,5 @@
+{
+  "side": "left",
+  "target": ["T_q1", "T_q2", "T_q3", "T_q4", "T_q5", "T_q6", "T_gripper"],
+  "duration_s": 10.0
+}

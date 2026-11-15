@@ -1,0 +1,15 @@
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.ruff_cache/
+**/data/
+**/camera_tests/
+**/runtime_diagnostics/
+**/backups/
+*.mcap
+*.mp4
+*.partial*
+.env
+*.pem
+*.key
+src/single_arm_transfer/target_cpu.json

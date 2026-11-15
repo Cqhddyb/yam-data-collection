@@ -1,0 +1,7 @@
+{
+  "side": "right",
+  "follower_start": ["F_q1", "F_q2", "F_q3", "F_q4", "F_q5", "F_q6", "F_gripper"],
+  "leader_start": ["L_q1", "L_q2", "L_q3", "L_q4", "L_q5", "L_q6", "L_gripper"],
+  "target": ["T_q1", "T_q2", "T_q3", "T_q4", "T_q5", "T_q6", "T_gripper"],
+  "duration_s": 10.0
+}

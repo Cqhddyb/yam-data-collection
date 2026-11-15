@@ -1,0 +1,42 @@
+# Host-specific controlled experiment plan for the RealSense frame-drop issue.
+#
+# Run one case at a time. The `experiment` command verifies the live mapping
+# from configured RealSense serial -> physical USB port -> PCI controller
+# before it opens the recorder. It records CPU affinity, lsusb -t, xHCI IRQ
+# lines, and the existing Global Time/host/frame-counter diagnostics for every
+# saved episode. It does not modify the formal capture profile, live encoder,
+# or thresholds; choose a dedicated config copy when comparing encoder backends.
+experiment:
+  output_dir: diagnostic_runs/realsense_frame_drop
+  # At 180 Hz state capture, three minutes needs more than the normal 50,000
+  # state-frame cap. The experiment command raises only its private cap.
+  duration_s: 180.0
+  repeats: 3
+  inter_trial_delay_s: 20.0
+
+  cases:
+    A:
+      description: "Baseline: all three RealSense cameras share 80:14.0; recorder on CPUs 16-23."
+      cpu_set: "16-23"
+      camera_controller_rules:
+        cam_high: "0000:80:14.0"
+        cam_left: "0000:80:14.0"
+        cam_right: "0000:80:14.0"
+
+    B:
+      description: "CPU-only change: same shared controller; recorder and live-encoder children on CPUs 12-19."
+      cpu_set: "12-19"
+      camera_controller_rules:
+        cam_high: "0000:80:14.0"
+        cam_left: "0000:80:14.0"
+        cam_right: "0000:80:14.0"
+
+    C:
+      description: "Topology-only change: right D405 must be off 80:14.0 and on an independent 00:0d.x controller."
+      cpu_set: "16-23"
+      camera_controller_rules:
+        cam_high: "0000:80:14.0"
+        cam_left: "0000:80:14.0"
+        cam_right:
+          one_of: ["0000:00:0d.0", "0000:00:0d.2"]
+          different_from: [cam_high, cam_left]

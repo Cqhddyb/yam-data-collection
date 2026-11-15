@@ -1,0 +1,60 @@
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "yam-data-collection"
+version = "0.1.0"
+description = "Portable bimanual YAM teleoperation data collection"
+readme = "README.md"
+# RealSense wheels and the adjacent i2rt deployment are validated on Python 3.11.
+# Keep the portable collector away from Python 3.13 until its camera dependency is
+# known to support that interpreter.
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "mcap-ros2-support>=0.5.5",
+    "numpy>=1.26",
+    "portal==3.7.3",
+    "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+lerobot = [
+    "pyarrow>=16",
+]
+timeline = [
+    # Source-timestamp video rewrite; fixed mode does not import or require PyAV.
+    "av>=16,<17",
+]
+camera = [
+    # Match the 2.56.x Librealsense runtime installed by ROS 2 on this host.
+    "pyrealsense2>=2.56,<2.57",
+]
+calibration = [
+    "opencv-python>=4.8",
+]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.15",
+]
+
+[project.scripts]
+yam-data-collect = "yam_data_collection.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["yam_data_collection"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# The deployment shell often has ROS 2 sourced. Its launch-testing plugin is
+# unrelated to this standalone recorder and can pull Python 3.10 ROS modules
+# into this Python 3.11 test environment.
+addopts = "-p no:launch_testing -p no:launch_ros"
+
+[tool.ruff]
+line-length = 119
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F"]
+ignore = ["E501"]

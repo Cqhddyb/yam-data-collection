@@ -1,0 +1,26 @@
+{
+  "original_source_baseline_files": 236,
+  "original_source_changes": [],
+  "original_data_size_or_presence_changes": [],
+  "release_source_manifest_files": 246,
+  "source_manifest_failures": [],
+  "sdk_and_lockfile_invariant_failures": [],
+  "known_hardware_identity_count_checked": 8,
+  "sensitive_content_hits": [],
+  "forbidden_files": [],
+  "python_files_parsed": 130,
+  "shell_files_syntax_checked": 12,
+  "markdown_files_link_checked": 22,
+  "syntax_errors": [],
+  "broken_public_links": [],
+  "broken_local_doc_links": [],
+  "missing_required_documents": [],
+  "offline_test_failures": [],
+  "url_domains_for_review": [
+    "files.pythonhosted.org",
+    "localhost",
+    "pypi.org"
+  ],
+  "scope": "Known identity and pattern scan, not a proof of all possible secret absence; no credential directories traversed. Original data compared by presence/size, not full byte hashes.",
+  "passed": true
+}
